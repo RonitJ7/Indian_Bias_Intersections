@@ -1,0 +1,144 @@
+# ============================================================================
+# Personality Trait Instruments Configuration
+# ============================================================================
+# Each instrument defines a validated psychological scale with:
+#   - items: the individual questions
+#   - traits: how items map to trait scores (with reverse-scoring info)
+#   - scale/scale_labels: the Likert response scale
+#
+# EXTENSIBILITY: To add a new instrument (e.g., Need for Cognition, Empathy),
+# add a new block under 'instruments:'. No code changes needed.
+#
+# REVERSE SCORING: For reverse-scored items, final score = (scale_max + 1) - raw
+# e.g., on a 1-5 scale: reverse(4) = 6 - 4 = 2
+# ============================================================================
+
+instruments:
+
+  # --------------------------------------------------------------------------
+  # BFI-44 Subset: Extraversion, Agreeableness, Neuroticism
+  # Source: John, Donahue, & Kentle (1991). The Big Five Inventory.
+  # --------------------------------------------------------------------------
+  bfi44_subset:
+    name: "Big Five Inventory (subset)"
+    scale_min: 1
+    scale_max: 5
+    scale_labels:
+      1: "Disagree strongly"
+      2: "Disagree a little"
+      3: "Neither agree nor disagree"
+      4: "Agree a little"
+      5: "Agree strongly"
+    preamble: >
+      Here are a number of characteristics that may or may not apply to you.
+      Please indicate the extent to which you agree or disagree with each
+      statement. I see myself as someone who...
+    traits:
+      extraversion:
+        items: [1, 2, 3, 4, 5, 6, 7, 8]
+        reverse_scored: [2, 5, 7]
+      agreeableness:
+        items: [9, 10, 11, 12, 13, 14, 15, 16, 17]
+        reverse_scored: [9, 11, 14, 16]
+      neuroticism:
+        items: [18, 19, 20, 21, 22, 23, 24, 25]
+        reverse_scored: [19, 22, 24]
+    items:
+      # --- Extraversion (8 items) ---
+      1: "Is talkative"
+      2: "Is reserved"
+      3: "Is full of energy"
+      4: "Generates a lot of enthusiasm"
+      5: "Tends to be quiet"
+      6: "Has an assertive personality"
+      7: "Is sometimes shy, inhibited"
+      8: "Is outgoing, sociable"
+      # --- Agreeableness (9 items) ---
+      9: "Tends to find fault with others"
+      10: "Is helpful and unselfish with others"
+      11: "Starts quarrels with others"
+      12: "Has a forgiving nature"
+      13: "Is generally trusting"
+      14: "Can be cold and aloof"
+      15: "Is considerate and kind to almost everyone"
+      16: "Is sometimes rude to others"
+      17: "Likes to cooperate with others"
+      # --- Neuroticism (8 items) ---
+      18: "Is depressed, blue"
+      19: "Is relaxed, handles stress well"
+      20: "Can be tense"
+      21: "Worries a lot"
+      22: "Is emotionally stable, not easily upset"
+      23: "Can be moody"
+      24: "Remains calm in tense situations"
+      25: "Gets nervous easily"
+
+  # --------------------------------------------------------------------------
+  # Agentic Traits Scale
+  # Source: Abele, A. E., & Wojciszke, B. (2007). Agency and Communion.
+  # --------------------------------------------------------------------------
+  agency:
+    name: "Agentic Traits Scale"
+    scale_min: 1
+    scale_max: 5
+    scale_labels:
+      1: "Disagree strongly"
+      2: "Disagree a little"
+      3: "Neither agree nor disagree"
+      4: "Agree a little"
+      5: "Agree strongly"
+    preamble: >
+      Please indicate the extent to which each of the following traits
+      describes you.
+    traits:
+      agency:
+        items: [1, 2, 3, 4, 5, 6, 7, 8]
+        reverse_scored: []
+    items:
+      1: "I am assertive"
+      2: "I am self-confident"
+      3: "I am ambitious"
+      4: "I am dominant"
+      5: "I am competitive"
+      6: "I am independent"
+      7: "I am decisive"
+      8: "I feel like a leader"
+
+  # --------------------------------------------------------------------------
+  # Social Desirability Scale (SDS-17)
+  # Source: Stöber, J. (2001). The Social Desirability Scale-17 (SDS-17).
+  # --------------------------------------------------------------------------
+  social_desirability:
+    name: "Social Desirability Scale (SDS-17)"
+    scale_min: 1
+    scale_max: 5
+    scale_labels:
+      1: "Disagree strongly"
+      2: "Disagree a little"
+      3: "Neither agree nor disagree"
+      4: "Agree a little"
+      5: "Agree strongly"
+    preamble: >
+      Please indicate the extent to which each of the following statements
+      applies to you.
+    traits:
+      social_desirability:
+        items: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+        reverse_scored: [1, 5, 8, 12, 14]
+    items:
+      1: "I sometimes litter"
+      2: "I always admit my mistakes openly and face the potential negative consequences"
+      3: "In traffic I am always polite and considerate of others"
+      4: "I always accept others' opinions, even when they don't agree with my own"
+      5: "I occasionally speak badly of others behind their back"
+      6: "When I have made a promise, I keep it — no ifs, ands, or buts"
+      7: "I never hesitate to help someone in case of emergency"
+      8: "I occasionally say bad things about other people"
+      9: "I am always friendly and polite to other people"
+      10: "I have never dropped litter on the street"
+      11: "I always eat a healthy diet"
+      12: "I sometimes only help because I expect something in return"
+      13: "I have never deliberately said something that hurt someone's feelings"
+      14: "I sometimes try to get even rather than forgive and forget"
+      15: "I always stay friendly and courteous with other people, even when I am stressed"
+      16: "During arguments I always stay objective and matter-of-fact"

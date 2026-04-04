@@ -1,0 +1,1001 @@
+persona_id,sex,race,religion,political_views,political_party
+synth_0000,Male,White,Nothing in particular,Moderate,Democrat
+synth_0001,Male,Black,Nothing in particular,Very conservative,Republican
+synth_0002,Female,White,Protestant,Very conservative,Democrat
+synth_0003,Male,Other,Agnostic,Very conservative,Democrat
+synth_0004,Female,Black,Hindu,Very liberal,Independent
+synth_0005,Male,Black,Nothing in particular,Liberal,Independent
+synth_0006,Female,Black,Orthodox,Moderate,Republican
+synth_0007,Male,Hispanic,Roman Catholic,Moderate,Independent
+synth_0008,Female,White,Nothing in particular,Liberal,Republican
+synth_0009,Female,White,Atheist,Moderate,Independent
+synth_0010,Male,White,Protestant,Conservative,Independent
+synth_0011,Male,Black,Roman Catholic,Liberal,Independent
+synth_0012,Female,Asian,Mormon,Moderate,Independent
+synth_0013,Male,Asian,Nothing in particular,Very conservative,Democrat
+synth_0014,Male,Black,Hindu,Liberal,Independent
+synth_0015,Male,Asian,Protestant,Conservative,Republican
+synth_0016,Female,Hispanic,Jewish,Very conservative,Democrat
+synth_0017,Female,Black,Other,Liberal,Something else
+synth_0018,Female,Black,Jewish,Conservative,Democrat
+synth_0019,Female,Other,Buddhist,Very liberal,Something else
+synth_0020,Female,Black,Mormon,Very liberal,Something else
+synth_0021,Male,White,Roman Catholic,Conservative,Democrat
+synth_0022,Female,Other,Roman Catholic,Liberal,Something else
+synth_0023,Female,Other,Jewish,Very liberal,Republican
+synth_0024,Male,Other,Jewish,Moderate,Republican
+synth_0025,Female,Hispanic,Mormon,Liberal,Republican
+synth_0026,Female,Other,Mormon,Very liberal,Republican
+synth_0027,Female,Other,Agnostic,Conservative,Democrat
+synth_0028,Female,Black,Atheist,Very liberal,Republican
+synth_0029,Female,Hispanic,Protestant,Very conservative,Independent
+synth_0030,Female,Black,Protestant,Conservative,Republican
+synth_0031,Male,Hispanic,Roman Catholic,Very liberal,Democrat
+synth_0032,Male,Hispanic,Atheist,Conservative,Independent
+synth_0033,Female,Black,Atheist,Conservative,Independent
+synth_0034,Female,Asian,Hindu,Very liberal,Something else
+synth_0035,Male,Black,Orthodox,Very conservative,Independent
+synth_0036,Male,Other,Atheist,Conservative,Democrat
+synth_0037,Male,White,Nothing in particular,Very conservative,Democrat
+synth_0038,Male,White,Muslim,Very conservative,Democrat
+synth_0039,Female,Hispanic,Orthodox,Very liberal,Democrat
+synth_0040,Female,Black,Hindu,Liberal,Democrat
+synth_0041,Male,White,Other,Liberal,Independent
+synth_0042,Female,Hispanic,Hindu,Very conservative,Republican
+synth_0043,Male,Hispanic,Nothing in particular,Moderate,Republican
+synth_0044,Male,Black,Orthodox,Very liberal,Something else
+synth_0045,Male,Hispanic,Mormon,Moderate,Something else
+synth_0046,Male,White,Hindu,Very liberal,Republican
+synth_0047,Male,Other,Protestant,Very conservative,Democrat
+synth_0048,Male,Hispanic,Hindu,Liberal,Democrat
+synth_0049,Female,White,Mormon,Liberal,Republican
+synth_0050,Female,Asian,Hindu,Moderate,Something else
+synth_0051,Female,Black,Orthodox,Moderate,Democrat
+synth_0052,Male,Other,Nothing in particular,Very liberal,Republican
+synth_0053,Female,White,Protestant,Very liberal,Something else
+synth_0054,Male,White,Atheist,Very conservative,Democrat
+synth_0055,Male,Other,Roman Catholic,Conservative,Something else
+synth_0056,Male,Other,Orthodox,Very liberal,Republican
+synth_0057,Male,Hispanic,Other,Very liberal,Independent
+synth_0058,Female,Black,Other,Moderate,Democrat
+synth_0059,Female,Hispanic,Mormon,Moderate,Something else
+synth_0060,Female,White,Protestant,Liberal,Republican
+synth_0061,Male,Other,Orthodox,Very liberal,Independent
+synth_0062,Male,Asian,Roman Catholic,Conservative,Independent
+synth_0063,Female,Black,Hindu,Very liberal,Independent
+synth_0064,Male,Other,Jewish,Very conservative,Democrat
+synth_0065,Female,White,Roman Catholic,Very liberal,Democrat
+synth_0066,Female,Asian,Agnostic,Conservative,Independent
+synth_0067,Male,Asian,Atheist,Liberal,Independent
+synth_0068,Male,White,Other,Liberal,Independent
+synth_0069,Male,White,Muslim,Conservative,Independent
+synth_0070,Male,Hispanic,Atheist,Liberal,Republican
+synth_0071,Male,White,Nothing in particular,Conservative,Republican
+synth_0072,Female,Other,Atheist,Conservative,Something else
+synth_0073,Male,White,Jewish,Moderate,Republican
+synth_0074,Female,Black,Other,Conservative,Republican
+synth_0075,Female,Other,Buddhist,Very liberal,Democrat
+synth_0076,Male,Black,Mormon,Liberal,Republican
+synth_0077,Male,Asian,Buddhist,Conservative,Independent
+synth_0078,Male,White,Buddhist,Very conservative,Something else
+synth_0079,Male,Black,Hindu,Moderate,Independent
+synth_0080,Male,Black,Protestant,Conservative,Something else
+synth_0081,Female,Asian,Roman Catholic,Moderate,Independent
+synth_0082,Female,Other,Muslim,Very conservative,Republican
+synth_0083,Female,Black,Agnostic,Moderate,Republican
+synth_0084,Male,Other,Buddhist,Moderate,Independent
+synth_0085,Female,Other,Atheist,Very conservative,Something else
+synth_0086,Male,Asian,Protestant,Liberal,Republican
+synth_0087,Male,Asian,Buddhist,Very conservative,Independent
+synth_0088,Female,White,Nothing in particular,Moderate,Independent
+synth_0089,Female,Asian,Buddhist,Moderate,Democrat
+synth_0090,Male,Hispanic,Other,Liberal,Democrat
+synth_0091,Female,Hispanic,Atheist,Very conservative,Independent
+synth_0092,Female,Black,Buddhist,Very liberal,Independent
+synth_0093,Female,Hispanic,Hindu,Conservative,Something else
+synth_0094,Male,White,Jewish,Very liberal,Independent
+synth_0095,Male,Black,Other,Moderate,Democrat
+synth_0096,Male,Black,Protestant,Very conservative,Democrat
+synth_0097,Female,Other,Roman Catholic,Liberal,Something else
+synth_0098,Male,Hispanic,Hindu,Liberal,Democrat
+synth_0099,Male,White,Roman Catholic,Liberal,Democrat
+synth_0100,Male,Other,Hindu,Very conservative,Democrat
+synth_0101,Male,Hispanic,Mormon,Liberal,Independent
+synth_0102,Female,Other,Nothing in particular,Very liberal,Something else
+synth_0103,Female,Black,Nothing in particular,Liberal,Something else
+synth_0104,Female,Black,Other,Moderate,Something else
+synth_0105,Male,Asian,Hindu,Very conservative,Independent
+synth_0106,Male,Asian,Muslim,Moderate,Republican
+synth_0107,Male,Black,Orthodox,Liberal,Democrat
+synth_0108,Male,White,Buddhist,Liberal,Independent
+synth_0109,Female,Hispanic,Protestant,Conservative,Something else
+synth_0110,Female,Other,Nothing in particular,Very conservative,Something else
+synth_0111,Female,White,Muslim,Moderate,Something else
+synth_0112,Female,Other,Nothing in particular,Very liberal,Democrat
+synth_0113,Female,Black,Jewish,Liberal,Something else
+synth_0114,Male,Hispanic,Muslim,Liberal,Democrat
+synth_0115,Female,Black,Agnostic,Very liberal,Republican
+synth_0116,Female,Other,Agnostic,Very conservative,Republican
+synth_0117,Female,Black,Hindu,Conservative,Republican
+synth_0118,Female,Hispanic,Muslim,Conservative,Something else
+synth_0119,Female,Asian,Buddhist,Moderate,Something else
+synth_0120,Female,White,Hindu,Very conservative,Republican
+synth_0121,Female,Black,Other,Very conservative,Republican
+synth_0122,Male,Black,Orthodox,Very conservative,Democrat
+synth_0123,Male,Black,Hindu,Very conservative,Democrat
+synth_0124,Female,Asian,Muslim,Conservative,Republican
+synth_0125,Male,Asian,Roman Catholic,Very liberal,Republican
+synth_0126,Female,Other,Other,Liberal,Something else
+synth_0127,Male,White,Agnostic,Conservative,Republican
+synth_0128,Female,Other,Roman Catholic,Very liberal,Republican
+synth_0129,Female,Other,Buddhist,Moderate,Republican
+synth_0130,Female,White,Buddhist,Liberal,Republican
+synth_0131,Female,Asian,Other,Liberal,Democrat
+synth_0132,Female,Black,Nothing in particular,Very liberal,Independent
+synth_0133,Female,Hispanic,Buddhist,Very liberal,Independent
+synth_0134,Female,Black,Roman Catholic,Moderate,Something else
+synth_0135,Male,Hispanic,Agnostic,Very liberal,Something else
+synth_0136,Female,White,Hindu,Moderate,Democrat
+synth_0137,Female,Black,Muslim,Moderate,Independent
+synth_0138,Female,Other,Nothing in particular,Moderate,Republican
+synth_0139,Male,White,Orthodox,Liberal,Something else
+synth_0140,Male,Hispanic,Other,Liberal,Something else
+synth_0141,Male,White,Jewish,Conservative,Something else
+synth_0142,Male,Asian,Other,Very liberal,Independent
+synth_0143,Female,Other,Atheist,Moderate,Something else
+synth_0144,Female,Asian,Nothing in particular,Liberal,Independent
+synth_0145,Female,Asian,Orthodox,Very conservative,Democrat
+synth_0146,Female,White,Nothing in particular,Very liberal,Democrat
+synth_0147,Male,Black,Nothing in particular,Liberal,Independent
+synth_0148,Female,White,Orthodox,Moderate,Democrat
+synth_0149,Female,Black,Jewish,Very conservative,Democrat
+synth_0150,Female,White,Protestant,Very liberal,Independent
+synth_0151,Male,Hispanic,Roman Catholic,Very conservative,Independent
+synth_0152,Female,Hispanic,Hindu,Moderate,Democrat
+synth_0153,Male,Asian,Hindu,Very conservative,Republican
+synth_0154,Female,Hispanic,Roman Catholic,Very liberal,Republican
+synth_0155,Male,Black,Agnostic,Moderate,Republican
+synth_0156,Male,White,Atheist,Liberal,Democrat
+synth_0157,Female,Hispanic,Hindu,Moderate,Something else
+synth_0158,Female,Other,Agnostic,Very conservative,Republican
+synth_0159,Male,Black,Jewish,Very conservative,Democrat
+synth_0160,Male,Black,Atheist,Very conservative,Democrat
+synth_0161,Male,Hispanic,Hindu,Very liberal,Something else
+synth_0162,Female,White,Orthodox,Moderate,Independent
+synth_0163,Female,White,Other,Conservative,Independent
+synth_0164,Male,Hispanic,Roman Catholic,Very liberal,Democrat
+synth_0165,Male,Asian,Mormon,Very conservative,Republican
+synth_0166,Male,Asian,Agnostic,Very liberal,Independent
+synth_0167,Female,White,Hindu,Moderate,Something else
+synth_0168,Female,Other,Atheist,Liberal,Something else
+synth_0169,Male,Other,Protestant,Liberal,Independent
+synth_0170,Female,White,Roman Catholic,Conservative,Republican
+synth_0171,Female,Other,Protestant,Conservative,Something else
+synth_0172,Female,Asian,Mormon,Very liberal,Something else
+synth_0173,Female,White,Hindu,Moderate,Something else
+synth_0174,Female,Asian,Other,Very conservative,Democrat
+synth_0175,Female,Hispanic,Nothing in particular,Liberal,Independent
+synth_0176,Female,Other,Protestant,Liberal,Republican
+synth_0177,Female,Asian,Muslim,Very conservative,Something else
+synth_0178,Male,Other,Hindu,Liberal,Republican
+synth_0179,Male,Other,Muslim,Very liberal,Something else
+synth_0180,Female,White,Orthodox,Moderate,Democrat
+synth_0181,Female,Hispanic,Nothing in particular,Liberal,Republican
+synth_0182,Male,Other,Orthodox,Conservative,Independent
+synth_0183,Male,Other,Buddhist,Very conservative,Democrat
+synth_0184,Male,Hispanic,Roman Catholic,Conservative,Something else
+synth_0185,Female,Other,Nothing in particular,Moderate,Something else
+synth_0186,Female,Hispanic,Orthodox,Liberal,Democrat
+synth_0187,Female,Black,Agnostic,Very liberal,Democrat
+synth_0188,Male,Asian,Buddhist,Moderate,Independent
+synth_0189,Male,Asian,Nothing in particular,Moderate,Something else
+synth_0190,Male,Hispanic,Atheist,Liberal,Independent
+synth_0191,Female,Other,Atheist,Liberal,Something else
+synth_0192,Female,Black,Nothing in particular,Conservative,Something else
+synth_0193,Male,Hispanic,Protestant,Moderate,Something else
+synth_0194,Female,Hispanic,Other,Conservative,Something else
+synth_0195,Male,Black,Atheist,Very liberal,Independent
+synth_0196,Male,Hispanic,Roman Catholic,Very liberal,Something else
+synth_0197,Male,Black,Buddhist,Conservative,Republican
+synth_0198,Female,Asian,Muslim,Very liberal,Something else
+synth_0199,Male,Asian,Other,Very liberal,Something else
+synth_0200,Female,Hispanic,Atheist,Very conservative,Republican
+synth_0201,Male,Asian,Orthodox,Very conservative,Something else
+synth_0202,Male,White,Hindu,Conservative,Independent
+synth_0203,Male,White,Muslim,Very conservative,Independent
+synth_0204,Female,Asian,Buddhist,Conservative,Democrat
+synth_0205,Female,Other,Other,Conservative,Democrat
+synth_0206,Male,White,Agnostic,Liberal,Democrat
+synth_0207,Female,Other,Mormon,Conservative,Something else
+synth_0208,Female,Hispanic,Jewish,Very conservative,Something else
+synth_0209,Female,Other,Mormon,Very conservative,Something else
+synth_0210,Female,Other,Jewish,Liberal,Independent
+synth_0211,Female,Asian,Orthodox,Liberal,Something else
+synth_0212,Male,Black,Buddhist,Very liberal,Independent
+synth_0213,Female,Asian,Protestant,Liberal,Independent
+synth_0214,Male,Other,Other,Very conservative,Something else
+synth_0215,Female,Black,Agnostic,Moderate,Democrat
+synth_0216,Male,Other,Jewish,Conservative,Republican
+synth_0217,Male,Asian,Hindu,Very conservative,Independent
+synth_0218,Male,White,Jewish,Moderate,Something else
+synth_0219,Male,Black,Mormon,Very liberal,Independent
+synth_0220,Female,Black,Jewish,Liberal,Independent
+synth_0221,Female,White,Hindu,Very conservative,Democrat
+synth_0222,Male,Hispanic,Atheist,Moderate,Republican
+synth_0223,Female,White,Jewish,Very liberal,Republican
+synth_0224,Female,Asian,Other,Moderate,Something else
+synth_0225,Female,White,Other,Conservative,Something else
+synth_0226,Male,Other,Atheist,Moderate,Democrat
+synth_0227,Male,Hispanic,Nothing in particular,Moderate,Something else
+synth_0228,Male,Black,Protestant,Very conservative,Independent
+synth_0229,Female,White,Roman Catholic,Conservative,Democrat
+synth_0230,Female,Hispanic,Muslim,Very liberal,Something else
+synth_0231,Male,Hispanic,Other,Very conservative,Something else
+synth_0232,Female,Asian,Protestant,Moderate,Democrat
+synth_0233,Female,Hispanic,Orthodox,Moderate,Republican
+synth_0234,Female,Other,Other,Moderate,Republican
+synth_0235,Female,Asian,Orthodox,Very conservative,Something else
+synth_0236,Male,Black,Other,Very liberal,Republican
+synth_0237,Male,Asian,Orthodox,Conservative,Democrat
+synth_0238,Male,Other,Orthodox,Very liberal,Democrat
+synth_0239,Male,Asian,Mormon,Very liberal,Republican
+synth_0240,Female,Black,Mormon,Very liberal,Independent
+synth_0241,Male,White,Other,Very conservative,Democrat
+synth_0242,Male,Asian,Orthodox,Very liberal,Independent
+synth_0243,Male,Black,Jewish,Very conservative,Democrat
+synth_0244,Female,Other,Roman Catholic,Very conservative,Something else
+synth_0245,Female,Asian,Atheist,Very liberal,Republican
+synth_0246,Female,Other,Orthodox,Very liberal,Republican
+synth_0247,Female,Hispanic,Other,Very conservative,Republican
+synth_0248,Female,Hispanic,Buddhist,Very conservative,Something else
+synth_0249,Female,White,Roman Catholic,Moderate,Democrat
+synth_0250,Male,Black,Jewish,Very liberal,Independent
+synth_0251,Female,Other,Atheist,Moderate,Something else
+synth_0252,Female,White,Nothing in particular,Very conservative,Democrat
+synth_0253,Female,Hispanic,Orthodox,Liberal,Independent
+synth_0254,Female,Hispanic,Buddhist,Very conservative,Independent
+synth_0255,Female,Asian,Other,Moderate,Independent
+synth_0256,Male,Hispanic,Roman Catholic,Very conservative,Republican
+synth_0257,Male,Hispanic,Roman Catholic,Moderate,Democrat
+synth_0258,Male,Other,Atheist,Very liberal,Independent
+synth_0259,Male,Hispanic,Muslim,Liberal,Republican
+synth_0260,Female,Other,Jewish,Moderate,Republican
+synth_0261,Male,Black,Other,Liberal,Democrat
+synth_0262,Male,Asian,Atheist,Moderate,Republican
+synth_0263,Female,Other,Orthodox,Liberal,Republican
+synth_0264,Female,White,Mormon,Moderate,Independent
+synth_0265,Female,Asian,Protestant,Conservative,Democrat
+synth_0266,Female,White,Mormon,Very conservative,Republican
+synth_0267,Male,Hispanic,Buddhist,Liberal,Independent
+synth_0268,Male,Asian,Jewish,Moderate,Republican
+synth_0269,Male,Black,Mormon,Very liberal,Republican
+synth_0270,Male,Asian,Hindu,Liberal,Something else
+synth_0271,Female,Hispanic,Jewish,Conservative,Republican
+synth_0272,Female,Hispanic,Roman Catholic,Moderate,Something else
+synth_0273,Female,White,Orthodox,Liberal,Republican
+synth_0274,Male,Black,Jewish,Conservative,Democrat
+synth_0275,Female,Asian,Muslim,Very conservative,Republican
+synth_0276,Female,Hispanic,Mormon,Conservative,Something else
+synth_0277,Male,Other,Atheist,Moderate,Republican
+synth_0278,Female,White,Buddhist,Very conservative,Something else
+synth_0279,Male,Asian,Agnostic,Liberal,Something else
+synth_0280,Female,Asian,Roman Catholic,Liberal,Republican
+synth_0281,Female,Black,Agnostic,Liberal,Independent
+synth_0282,Male,Hispanic,Roman Catholic,Conservative,Something else
+synth_0283,Female,Other,Roman Catholic,Liberal,Independent
+synth_0284,Female,Black,Muslim,Conservative,Republican
+synth_0285,Male,Other,Atheist,Conservative,Independent
+synth_0286,Female,Black,Orthodox,Very conservative,Democrat
+synth_0287,Female,Black,Mormon,Very liberal,Democrat
+synth_0288,Male,Black,Other,Liberal,Something else
+synth_0289,Female,Other,Other,Very liberal,Independent
+synth_0290,Female,Black,Hindu,Very conservative,Something else
+synth_0291,Female,Asian,Jewish,Very liberal,Republican
+synth_0292,Female,Other,Roman Catholic,Moderate,Something else
+synth_0293,Female,White,Protestant,Moderate,Independent
+synth_0294,Male,White,Agnostic,Very liberal,Something else
+synth_0295,Female,Other,Atheist,Very conservative,Something else
+synth_0296,Male,Asian,Agnostic,Liberal,Democrat
+synth_0297,Male,Hispanic,Roman Catholic,Moderate,Republican
+synth_0298,Male,White,Orthodox,Liberal,Something else
+synth_0299,Male,Asian,Muslim,Moderate,Something else
+synth_0300,Female,Asian,Other,Very liberal,Republican
+synth_0301,Female,White,Muslim,Very conservative,Something else
+synth_0302,Female,Asian,Nothing in particular,Very liberal,Democrat
+synth_0303,Female,White,Agnostic,Conservative,Independent
+synth_0304,Female,Hispanic,Mormon,Very liberal,Republican
+synth_0305,Female,Other,Buddhist,Moderate,Democrat
+synth_0306,Male,Hispanic,Atheist,Moderate,Republican
+synth_0307,Female,Asian,Mormon,Conservative,Independent
+synth_0308,Female,Black,Orthodox,Conservative,Democrat
+synth_0309,Male,Asian,Roman Catholic,Very liberal,Republican
+synth_0310,Female,Other,Mormon,Very liberal,Something else
+synth_0311,Male,Black,Mormon,Very liberal,Democrat
+synth_0312,Female,White,Buddhist,Moderate,Democrat
+synth_0313,Female,Other,Jewish,Liberal,Democrat
+synth_0314,Male,Asian,Hindu,Conservative,Independent
+synth_0315,Female,Hispanic,Jewish,Liberal,Something else
+synth_0316,Male,Black,Agnostic,Conservative,Independent
+synth_0317,Male,Hispanic,Muslim,Very liberal,Republican
+synth_0318,Male,Asian,Roman Catholic,Conservative,Independent
+synth_0319,Female,Other,Mormon,Liberal,Republican
+synth_0320,Male,Hispanic,Muslim,Very conservative,Something else
+synth_0321,Male,Hispanic,Atheist,Moderate,Democrat
+synth_0322,Female,White,Muslim,Conservative,Republican
+synth_0323,Female,White,Nothing in particular,Moderate,Democrat
+synth_0324,Male,White,Jewish,Liberal,Democrat
+synth_0325,Female,Hispanic,Agnostic,Very conservative,Republican
+synth_0326,Male,Asian,Orthodox,Conservative,Something else
+synth_0327,Male,Asian,Orthodox,Moderate,Republican
+synth_0328,Male,Black,Buddhist,Very liberal,Something else
+synth_0329,Male,White,Hindu,Very liberal,Republican
+synth_0330,Male,Black,Jewish,Liberal,Republican
+synth_0331,Female,Black,Agnostic,Liberal,Democrat
+synth_0332,Male,Other,Muslim,Very conservative,Republican
+synth_0333,Female,Hispanic,Protestant,Liberal,Independent
+synth_0334,Female,White,Muslim,Very conservative,Independent
+synth_0335,Male,White,Agnostic,Moderate,Democrat
+synth_0336,Male,Asian,Atheist,Moderate,Democrat
+synth_0337,Female,Hispanic,Other,Conservative,Democrat
+synth_0338,Male,Hispanic,Protestant,Moderate,Democrat
+synth_0339,Male,Black,Protestant,Moderate,Independent
+synth_0340,Female,Other,Hindu,Moderate,Republican
+synth_0341,Male,Asian,Muslim,Very conservative,Independent
+synth_0342,Female,White,Muslim,Liberal,Something else
+synth_0343,Female,Hispanic,Muslim,Conservative,Something else
+synth_0344,Female,Asian,Atheist,Moderate,Republican
+synth_0345,Female,White,Buddhist,Very liberal,Democrat
+synth_0346,Female,Asian,Roman Catholic,Very conservative,Independent
+synth_0347,Female,Asian,Hindu,Very liberal,Something else
+synth_0348,Male,Hispanic,Muslim,Liberal,Republican
+synth_0349,Female,Other,Buddhist,Moderate,Republican
+synth_0350,Male,Hispanic,Muslim,Very liberal,Democrat
+synth_0351,Male,Black,Agnostic,Liberal,Republican
+synth_0352,Male,White,Orthodox,Moderate,Independent
+synth_0353,Female,Other,Protestant,Very liberal,Democrat
+synth_0354,Female,Asian,Muslim,Liberal,Republican
+synth_0355,Male,Other,Muslim,Liberal,Independent
+synth_0356,Female,Black,Roman Catholic,Very conservative,Democrat
+synth_0357,Female,Other,Buddhist,Very liberal,Republican
+synth_0358,Female,Asian,Nothing in particular,Liberal,Democrat
+synth_0359,Female,Hispanic,Orthodox,Very conservative,Democrat
+synth_0360,Male,Hispanic,Mormon,Liberal,Republican
+synth_0361,Female,Asian,Nothing in particular,Very conservative,Independent
+synth_0362,Female,Black,Nothing in particular,Conservative,Independent
+synth_0363,Male,White,Orthodox,Conservative,Democrat
+synth_0364,Female,White,Muslim,Very liberal,Independent
+synth_0365,Female,Other,Mormon,Very liberal,Republican
+synth_0366,Male,Asian,Buddhist,Liberal,Something else
+synth_0367,Female,Other,Roman Catholic,Conservative,Independent
+synth_0368,Male,Hispanic,Hindu,Very liberal,Independent
+synth_0369,Male,Other,Other,Very liberal,Democrat
+synth_0370,Male,Hispanic,Atheist,Very conservative,Republican
+synth_0371,Male,Asian,Mormon,Conservative,Independent
+synth_0372,Male,Asian,Atheist,Moderate,Republican
+synth_0373,Female,Black,Other,Very liberal,Independent
+synth_0374,Male,Asian,Agnostic,Very liberal,Republican
+synth_0375,Male,Other,Agnostic,Conservative,Democrat
+synth_0376,Female,Other,Protestant,Very conservative,Republican
+synth_0377,Male,Other,Jewish,Conservative,Something else
+synth_0378,Male,Hispanic,Other,Very liberal,Independent
+synth_0379,Female,Hispanic,Orthodox,Liberal,Independent
+synth_0380,Female,White,Nothing in particular,Very conservative,Democrat
+synth_0381,Female,Hispanic,Hindu,Liberal,Democrat
+synth_0382,Female,Other,Mormon,Moderate,Independent
+synth_0383,Female,Hispanic,Mormon,Moderate,Republican
+synth_0384,Female,Black,Hindu,Very conservative,Independent
+synth_0385,Female,Black,Mormon,Very conservative,Republican
+synth_0386,Female,Hispanic,Agnostic,Liberal,Democrat
+synth_0387,Male,Asian,Agnostic,Moderate,Democrat
+synth_0388,Male,Hispanic,Atheist,Liberal,Something else
+synth_0389,Female,Hispanic,Protestant,Very conservative,Something else
+synth_0390,Female,Black,Orthodox,Very liberal,Independent
+synth_0391,Male,White,Jewish,Liberal,Something else
+synth_0392,Female,Other,Protestant,Very conservative,Something else
+synth_0393,Male,Asian,Nothing in particular,Moderate,Something else
+synth_0394,Female,White,Buddhist,Very conservative,Democrat
+synth_0395,Female,Other,Jewish,Very conservative,Something else
+synth_0396,Female,Other,Jewish,Very liberal,Republican
+synth_0397,Male,White,Buddhist,Moderate,Independent
+synth_0398,Female,Black,Orthodox,Very liberal,Something else
+synth_0399,Male,White,Protestant,Conservative,Independent
+synth_0400,Female,Other,Hindu,Conservative,Democrat
+synth_0401,Female,Other,Muslim,Conservative,Something else
+synth_0402,Female,Other,Muslim,Very liberal,Something else
+synth_0403,Female,Hispanic,Protestant,Moderate,Independent
+synth_0404,Male,Hispanic,Agnostic,Moderate,Republican
+synth_0405,Female,Asian,Other,Very liberal,Democrat
+synth_0406,Male,Other,Hindu,Conservative,Something else
+synth_0407,Male,Black,Protestant,Very liberal,Republican
+synth_0408,Male,White,Hindu,Moderate,Something else
+synth_0409,Male,Hispanic,Nothing in particular,Conservative,Something else
+synth_0410,Female,White,Nothing in particular,Conservative,Democrat
+synth_0411,Female,Hispanic,Atheist,Liberal,Independent
+synth_0412,Male,Hispanic,Atheist,Moderate,Independent
+synth_0413,Female,Other,Hindu,Conservative,Democrat
+synth_0414,Female,Other,Jewish,Conservative,Independent
+synth_0415,Female,Black,Nothing in particular,Liberal,Independent
+synth_0416,Female,Asian,Atheist,Moderate,Independent
+synth_0417,Male,Other,Other,Very liberal,Something else
+synth_0418,Female,Asian,Mormon,Moderate,Republican
+synth_0419,Female,White,Muslim,Liberal,Independent
+synth_0420,Female,Black,Orthodox,Very liberal,Independent
+synth_0421,Female,Black,Roman Catholic,Very liberal,Democrat
+synth_0422,Male,White,Other,Very liberal,Democrat
+synth_0423,Male,White,Roman Catholic,Liberal,Independent
+synth_0424,Female,White,Other,Conservative,Republican
+synth_0425,Male,Hispanic,Other,Liberal,Something else
+synth_0426,Male,Asian,Muslim,Moderate,Republican
+synth_0427,Male,Other,Orthodox,Very liberal,Republican
+synth_0428,Male,Hispanic,Mormon,Very conservative,Something else
+synth_0429,Female,Black,Nothing in particular,Moderate,Republican
+synth_0430,Male,Asian,Agnostic,Very liberal,Republican
+synth_0431,Female,Asian,Hindu,Very liberal,Something else
+synth_0432,Male,Other,Hindu,Moderate,Democrat
+synth_0433,Male,Asian,Mormon,Liberal,Independent
+synth_0434,Male,White,Nothing in particular,Moderate,Independent
+synth_0435,Male,Black,Agnostic,Liberal,Something else
+synth_0436,Female,White,Buddhist,Very conservative,Democrat
+synth_0437,Male,Hispanic,Muslim,Conservative,Republican
+synth_0438,Female,Hispanic,Orthodox,Liberal,Independent
+synth_0439,Female,Asian,Agnostic,Very liberal,Republican
+synth_0440,Female,Asian,Nothing in particular,Conservative,Republican
+synth_0441,Male,Hispanic,Jewish,Conservative,Something else
+synth_0442,Female,White,Other,Moderate,Independent
+synth_0443,Male,Black,Mormon,Liberal,Democrat
+synth_0444,Female,Other,Muslim,Liberal,Something else
+synth_0445,Male,Black,Other,Very liberal,Republican
+synth_0446,Female,Other,Nothing in particular,Moderate,Republican
+synth_0447,Male,White,Atheist,Very liberal,Democrat
+synth_0448,Male,Black,Muslim,Very liberal,Something else
+synth_0449,Male,Black,Nothing in particular,Very liberal,Something else
+synth_0450,Male,Other,Hindu,Very conservative,Something else
+synth_0451,Male,Other,Buddhist,Liberal,Republican
+synth_0452,Female,Asian,Nothing in particular,Very conservative,Something else
+synth_0453,Female,White,Nothing in particular,Conservative,Republican
+synth_0454,Male,Hispanic,Muslim,Very conservative,Republican
+synth_0455,Male,Hispanic,Protestant,Moderate,Something else
+synth_0456,Male,Black,Other,Liberal,Independent
+synth_0457,Female,Hispanic,Buddhist,Liberal,Republican
+synth_0458,Male,Asian,Roman Catholic,Conservative,Something else
+synth_0459,Male,Black,Protestant,Very conservative,Independent
+synth_0460,Female,Other,Buddhist,Very liberal,Something else
+synth_0461,Male,Black,Hindu,Moderate,Democrat
+synth_0462,Female,Black,Nothing in particular,Very conservative,Republican
+synth_0463,Female,Other,Protestant,Conservative,Democrat
+synth_0464,Male,White,Agnostic,Very conservative,Something else
+synth_0465,Male,Black,Nothing in particular,Very conservative,Something else
+synth_0466,Female,Black,Atheist,Conservative,Republican
+synth_0467,Male,Other,Jewish,Conservative,Independent
+synth_0468,Female,Black,Jewish,Conservative,Democrat
+synth_0469,Female,Asian,Jewish,Very conservative,Democrat
+synth_0470,Female,Other,Hindu,Very conservative,Independent
+synth_0471,Female,Other,Muslim,Liberal,Something else
+synth_0472,Male,Asian,Buddhist,Conservative,Something else
+synth_0473,Male,Black,Jewish,Conservative,Something else
+synth_0474,Male,Other,Buddhist,Liberal,Democrat
+synth_0475,Female,Black,Jewish,Conservative,Independent
+synth_0476,Male,Hispanic,Muslim,Very conservative,Democrat
+synth_0477,Male,Asian,Buddhist,Very liberal,Republican
+synth_0478,Male,Black,Agnostic,Very liberal,Democrat
+synth_0479,Female,Black,Muslim,Moderate,Republican
+synth_0480,Male,Black,Nothing in particular,Very conservative,Something else
+synth_0481,Male,Other,Nothing in particular,Conservative,Something else
+synth_0482,Male,Other,Muslim,Moderate,Something else
+synth_0483,Female,Other,Other,Moderate,Independent
+synth_0484,Female,Asian,Atheist,Liberal,Something else
+synth_0485,Male,Hispanic,Muslim,Conservative,Independent
+synth_0486,Female,Hispanic,Protestant,Very liberal,Democrat
+synth_0487,Male,White,Jewish,Very liberal,Something else
+synth_0488,Female,Black,Orthodox,Moderate,Democrat
+synth_0489,Female,Other,Orthodox,Liberal,Independent
+synth_0490,Female,Hispanic,Nothing in particular,Liberal,Something else
+synth_0491,Male,Asian,Mormon,Conservative,Something else
+synth_0492,Male,Other,Other,Very conservative,Republican
+synth_0493,Male,White,Protestant,Liberal,Democrat
+synth_0494,Male,White,Nothing in particular,Conservative,Republican
+synth_0495,Male,Other,Hindu,Moderate,Republican
+synth_0496,Female,Hispanic,Protestant,Very conservative,Something else
+synth_0497,Male,White,Atheist,Moderate,Independent
+synth_0498,Male,Other,Nothing in particular,Liberal,Democrat
+synth_0499,Male,White,Atheist,Conservative,Democrat
+synth_0500,Male,Other,Atheist,Moderate,Independent
+synth_0501,Female,Hispanic,Roman Catholic,Moderate,Something else
+synth_0502,Female,Other,Orthodox,Conservative,Independent
+synth_0503,Male,White,Roman Catholic,Liberal,Something else
+synth_0504,Female,Other,Hindu,Very conservative,Republican
+synth_0505,Male,White,Hindu,Liberal,Independent
+synth_0506,Male,Other,Protestant,Conservative,Democrat
+synth_0507,Female,Asian,Protestant,Very conservative,Independent
+synth_0508,Male,Black,Muslim,Very conservative,Democrat
+synth_0509,Male,Hispanic,Roman Catholic,Moderate,Democrat
+synth_0510,Male,Other,Buddhist,Very liberal,Independent
+synth_0511,Female,Black,Nothing in particular,Very conservative,Independent
+synth_0512,Male,White,Buddhist,Conservative,Republican
+synth_0513,Female,Other,Agnostic,Very liberal,Something else
+synth_0514,Female,White,Other,Moderate,Something else
+synth_0515,Female,Black,Muslim,Very liberal,Something else
+synth_0516,Female,Black,Other,Very liberal,Something else
+synth_0517,Male,Other,Jewish,Conservative,Republican
+synth_0518,Male,Asian,Mormon,Liberal,Democrat
+synth_0519,Female,Asian,Muslim,Very conservative,Republican
+synth_0520,Male,Asian,Hindu,Moderate,Independent
+synth_0521,Male,Black,Roman Catholic,Conservative,Something else
+synth_0522,Female,Other,Atheist,Very liberal,Something else
+synth_0523,Male,White,Roman Catholic,Moderate,Republican
+synth_0524,Female,Hispanic,Protestant,Moderate,Something else
+synth_0525,Female,White,Nothing in particular,Very liberal,Democrat
+synth_0526,Male,Hispanic,Mormon,Conservative,Independent
+synth_0527,Female,Asian,Hindu,Conservative,Republican
+synth_0528,Male,Hispanic,Jewish,Liberal,Independent
+synth_0529,Female,White,Muslim,Moderate,Democrat
+synth_0530,Female,Other,Agnostic,Conservative,Something else
+synth_0531,Male,Black,Jewish,Very conservative,Something else
+synth_0532,Female,Other,Buddhist,Moderate,Something else
+synth_0533,Female,Hispanic,Other,Very liberal,Democrat
+synth_0534,Female,Asian,Agnostic,Conservative,Something else
+synth_0535,Female,Black,Buddhist,Moderate,Independent
+synth_0536,Female,Other,Orthodox,Moderate,Something else
+synth_0537,Female,Hispanic,Muslim,Very conservative,Democrat
+synth_0538,Male,Other,Protestant,Liberal,Democrat
+synth_0539,Female,Asian,Nothing in particular,Very conservative,Something else
+synth_0540,Female,Black,Other,Moderate,Democrat
+synth_0541,Female,Black,Nothing in particular,Liberal,Something else
+synth_0542,Male,Hispanic,Agnostic,Liberal,Something else
+synth_0543,Female,Other,Protestant,Moderate,Republican
+synth_0544,Male,Black,Other,Moderate,Democrat
+synth_0545,Male,Other,Other,Liberal,Independent
+synth_0546,Female,White,Protestant,Very conservative,Independent
+synth_0547,Male,Other,Nothing in particular,Very liberal,Democrat
+synth_0548,Female,Asian,Buddhist,Liberal,Democrat
+synth_0549,Female,White,Hindu,Very conservative,Independent
+synth_0550,Female,White,Roman Catholic,Conservative,Independent
+synth_0551,Female,Asian,Hindu,Conservative,Something else
+synth_0552,Female,Hispanic,Roman Catholic,Liberal,Something else
+synth_0553,Female,White,Jewish,Very conservative,Republican
+synth_0554,Male,Asian,Other,Very conservative,Democrat
+synth_0555,Male,Other,Mormon,Very liberal,Democrat
+synth_0556,Female,Other,Buddhist,Liberal,Democrat
+synth_0557,Female,Black,Mormon,Liberal,Something else
+synth_0558,Male,Other,Orthodox,Liberal,Something else
+synth_0559,Female,White,Nothing in particular,Conservative,Democrat
+synth_0560,Female,White,Agnostic,Very conservative,Democrat
+synth_0561,Female,Asian,Orthodox,Liberal,Republican
+synth_0562,Female,Hispanic,Atheist,Moderate,Something else
+synth_0563,Female,Other,Roman Catholic,Moderate,Independent
+synth_0564,Female,Other,Mormon,Moderate,Republican
+synth_0565,Male,Asian,Roman Catholic,Conservative,Independent
+synth_0566,Male,Black,Muslim,Conservative,Something else
+synth_0567,Female,Other,Mormon,Very liberal,Something else
+synth_0568,Female,Black,Hindu,Very liberal,Democrat
+synth_0569,Male,Hispanic,Jewish,Conservative,Democrat
+synth_0570,Female,Hispanic,Agnostic,Very conservative,Independent
+synth_0571,Male,Hispanic,Mormon,Conservative,Something else
+synth_0572,Female,Hispanic,Other,Liberal,Something else
+synth_0573,Female,Hispanic,Mormon,Very conservative,Republican
+synth_0574,Male,Asian,Protestant,Moderate,Democrat
+synth_0575,Female,Black,Hindu,Very liberal,Something else
+synth_0576,Male,Other,Roman Catholic,Moderate,Independent
+synth_0577,Male,Hispanic,Atheist,Conservative,Something else
+synth_0578,Male,Black,Jewish,Very conservative,Something else
+synth_0579,Female,Asian,Roman Catholic,Liberal,Republican
+synth_0580,Male,Black,Nothing in particular,Very liberal,Independent
+synth_0581,Female,Black,Agnostic,Conservative,Democrat
+synth_0582,Male,White,Agnostic,Moderate,Independent
+synth_0583,Male,Asian,Nothing in particular,Moderate,Independent
+synth_0584,Female,Other,Other,Very conservative,Democrat
+synth_0585,Female,White,Jewish,Conservative,Democrat
+synth_0586,Male,Black,Nothing in particular,Moderate,Democrat
+synth_0587,Female,Hispanic,Mormon,Very liberal,Independent
+synth_0588,Female,Hispanic,Hindu,Very conservative,Republican
+synth_0589,Female,Other,Nothing in particular,Moderate,Independent
+synth_0590,Female,Hispanic,Muslim,Very liberal,Republican
+synth_0591,Male,Hispanic,Other,Moderate,Republican
+synth_0592,Female,Black,Buddhist,Conservative,Something else
+synth_0593,Female,Asian,Jewish,Moderate,Democrat
+synth_0594,Female,Asian,Other,Very conservative,Republican
+synth_0595,Male,Hispanic,Protestant,Very conservative,Democrat
+synth_0596,Female,Hispanic,Protestant,Liberal,Democrat
+synth_0597,Male,Asian,Mormon,Moderate,Republican
+synth_0598,Female,Asian,Roman Catholic,Moderate,Democrat
+synth_0599,Male,Hispanic,Other,Moderate,Democrat
+synth_0600,Female,White,Nothing in particular,Very conservative,Republican
+synth_0601,Male,Hispanic,Roman Catholic,Conservative,Democrat
+synth_0602,Female,White,Protestant,Moderate,Republican
+synth_0603,Female,Black,Hindu,Very conservative,Democrat
+synth_0604,Female,White,Nothing in particular,Very conservative,Republican
+synth_0605,Female,Asian,Jewish,Conservative,Something else
+synth_0606,Male,Black,Roman Catholic,Very liberal,Republican
+synth_0607,Male,Hispanic,Muslim,Conservative,Democrat
+synth_0608,Female,Other,Other,Liberal,Democrat
+synth_0609,Male,White,Mormon,Very conservative,Something else
+synth_0610,Female,Hispanic,Muslim,Conservative,Democrat
+synth_0611,Female,White,Orthodox,Very liberal,Independent
+synth_0612,Male,Asian,Orthodox,Very liberal,Democrat
+synth_0613,Female,Asian,Other,Very conservative,Democrat
+synth_0614,Female,Hispanic,Roman Catholic,Conservative,Something else
+synth_0615,Male,Other,Protestant,Moderate,Independent
+synth_0616,Male,Hispanic,Agnostic,Liberal,Independent
+synth_0617,Male,Hispanic,Roman Catholic,Very conservative,Republican
+synth_0618,Male,Asian,Orthodox,Very conservative,Republican
+synth_0619,Female,Other,Jewish,Very liberal,Something else
+synth_0620,Female,Hispanic,Roman Catholic,Very liberal,Democrat
+synth_0621,Female,White,Jewish,Very conservative,Democrat
+synth_0622,Male,Other,Muslim,Liberal,Republican
+synth_0623,Female,Hispanic,Nothing in particular,Conservative,Republican
+synth_0624,Male,White,Buddhist,Very conservative,Something else
+synth_0625,Male,Asian,Other,Conservative,Republican
+synth_0626,Male,Black,Nothing in particular,Very conservative,Democrat
+synth_0627,Female,Asian,Atheist,Very liberal,Independent
+synth_0628,Male,Asian,Mormon,Moderate,Republican
+synth_0629,Male,Asian,Buddhist,Moderate,Republican
+synth_0630,Female,Other,Other,Very conservative,Something else
+synth_0631,Female,Other,Muslim,Very conservative,Something else
+synth_0632,Male,Asian,Mormon,Moderate,Republican
+synth_0633,Male,Black,Nothing in particular,Very liberal,Republican
+synth_0634,Male,White,Orthodox,Very conservative,Something else
+synth_0635,Female,Hispanic,Mormon,Conservative,Republican
+synth_0636,Female,Black,Muslim,Conservative,Something else
+synth_0637,Female,Asian,Roman Catholic,Very liberal,Independent
+synth_0638,Male,Other,Other,Very conservative,Democrat
+synth_0639,Male,Other,Protestant,Liberal,Republican
+synth_0640,Female,Asian,Jewish,Moderate,Republican
+synth_0641,Female,White,Muslim,Conservative,Independent
+synth_0642,Female,Other,Orthodox,Liberal,Independent
+synth_0643,Female,Black,Nothing in particular,Very liberal,Democrat
+synth_0644,Male,White,Buddhist,Very conservative,Democrat
+synth_0645,Female,White,Muslim,Very conservative,Something else
+synth_0646,Female,White,Orthodox,Very liberal,Democrat
+synth_0647,Female,Hispanic,Protestant,Conservative,Independent
+synth_0648,Male,White,Orthodox,Very liberal,Something else
+synth_0649,Female,Hispanic,Nothing in particular,Very conservative,Republican
+synth_0650,Male,Hispanic,Roman Catholic,Very liberal,Republican
+synth_0651,Female,Black,Orthodox,Moderate,Independent
+synth_0652,Female,Hispanic,Nothing in particular,Moderate,Independent
+synth_0653,Female,Asian,Orthodox,Very conservative,Democrat
+synth_0654,Male,Other,Roman Catholic,Conservative,Republican
+synth_0655,Male,Hispanic,Hindu,Moderate,Something else
+synth_0656,Male,Other,Muslim,Conservative,Something else
+synth_0657,Female,Hispanic,Jewish,Very conservative,Republican
+synth_0658,Male,Asian,Nothing in particular,Very liberal,Republican
+synth_0659,Male,Asian,Mormon,Very conservative,Democrat
+synth_0660,Female,Hispanic,Atheist,Very conservative,Independent
+synth_0661,Female,Black,Protestant,Liberal,Something else
+synth_0662,Male,White,Hindu,Very conservative,Democrat
+synth_0663,Male,White,Protestant,Conservative,Democrat
+synth_0664,Male,Hispanic,Muslim,Very conservative,Independent
+synth_0665,Male,White,Roman Catholic,Conservative,Something else
+synth_0666,Male,White,Muslim,Very conservative,Republican
+synth_0667,Female,White,Mormon,Very liberal,Something else
+synth_0668,Female,Hispanic,Protestant,Liberal,Something else
+synth_0669,Male,Asian,Orthodox,Conservative,Independent
+synth_0670,Female,Hispanic,Mormon,Very conservative,Democrat
+synth_0671,Female,Hispanic,Buddhist,Very liberal,Something else
+synth_0672,Male,White,Jewish,Liberal,Democrat
+synth_0673,Female,Black,Other,Very liberal,Democrat
+synth_0674,Male,Hispanic,Nothing in particular,Moderate,Something else
+synth_0675,Female,Asian,Agnostic,Very liberal,Independent
+synth_0676,Female,Asian,Mormon,Very conservative,Independent
+synth_0677,Male,White,Jewish,Very conservative,Something else
+synth_0678,Female,Other,Orthodox,Conservative,Republican
+synth_0679,Male,Black,Jewish,Very liberal,Republican
+synth_0680,Male,Other,Buddhist,Moderate,Democrat
+synth_0681,Male,Black,Agnostic,Moderate,Independent
+synth_0682,Male,Asian,Agnostic,Very liberal,Democrat
+synth_0683,Male,Hispanic,Atheist,Moderate,Democrat
+synth_0684,Female,White,Roman Catholic,Very conservative,Democrat
+synth_0685,Male,White,Atheist,Liberal,Republican
+synth_0686,Female,Other,Orthodox,Conservative,Independent
+synth_0687,Male,Asian,Protestant,Very conservative,Democrat
+synth_0688,Male,White,Atheist,Moderate,Republican
+synth_0689,Female,Hispanic,Agnostic,Very conservative,Independent
+synth_0690,Female,Asian,Mormon,Conservative,Something else
+synth_0691,Female,Asian,Mormon,Very liberal,Independent
+synth_0692,Male,Other,Mormon,Liberal,Independent
+synth_0693,Female,Black,Mormon,Very conservative,Something else
+synth_0694,Male,Black,Agnostic,Moderate,Democrat
+synth_0695,Male,Hispanic,Mormon,Moderate,Republican
+synth_0696,Male,Asian,Muslim,Conservative,Republican
+synth_0697,Female,Hispanic,Protestant,Moderate,Democrat
+synth_0698,Male,White,Muslim,Moderate,Republican
+synth_0699,Male,White,Buddhist,Liberal,Something else
+synth_0700,Male,Hispanic,Hindu,Liberal,Independent
+synth_0701,Female,White,Hindu,Very liberal,Democrat
+synth_0702,Male,Hispanic,Roman Catholic,Very conservative,Independent
+synth_0703,Male,Asian,Jewish,Very conservative,Republican
+synth_0704,Female,Black,Buddhist,Conservative,Republican
+synth_0705,Male,Asian,Agnostic,Very liberal,Something else
+synth_0706,Male,Hispanic,Other,Conservative,Something else
+synth_0707,Male,White,Roman Catholic,Moderate,Democrat
+synth_0708,Male,Hispanic,Nothing in particular,Very liberal,Independent
+synth_0709,Female,Asian,Orthodox,Very conservative,Republican
+synth_0710,Female,Other,Atheist,Liberal,Democrat
+synth_0711,Male,Asian,Protestant,Liberal,Republican
+synth_0712,Female,Other,Hindu,Conservative,Republican
+synth_0713,Male,Black,Mormon,Moderate,Republican
+synth_0714,Female,White,Jewish,Liberal,Something else
+synth_0715,Female,Asian,Roman Catholic,Very liberal,Something else
+synth_0716,Male,Asian,Buddhist,Moderate,Democrat
+synth_0717,Female,White,Jewish,Liberal,Something else
+synth_0718,Female,Black,Jewish,Very liberal,Republican
+synth_0719,Male,White,Roman Catholic,Moderate,Something else
+synth_0720,Male,Other,Protestant,Liberal,Something else
+synth_0721,Female,Other,Orthodox,Liberal,Independent
+synth_0722,Male,Hispanic,Nothing in particular,Very conservative,Democrat
+synth_0723,Male,Hispanic,Mormon,Conservative,Democrat
+synth_0724,Male,Black,Protestant,Liberal,Republican
+synth_0725,Female,Black,Other,Conservative,Independent
+synth_0726,Female,White,Roman Catholic,Liberal,Something else
+synth_0727,Female,Asian,Atheist,Liberal,Republican
+synth_0728,Female,White,Buddhist,Conservative,Democrat
+synth_0729,Male,White,Agnostic,Very conservative,Independent
+synth_0730,Female,Hispanic,Jewish,Liberal,Something else
+synth_0731,Female,White,Mormon,Moderate,Something else
+synth_0732,Male,Other,Agnostic,Liberal,Republican
+synth_0733,Female,Asian,Nothing in particular,Conservative,Republican
+synth_0734,Female,Asian,Muslim,Very conservative,Independent
+synth_0735,Female,Asian,Jewish,Liberal,Republican
+synth_0736,Male,Black,Jewish,Liberal,Independent
+synth_0737,Female,Hispanic,Agnostic,Very conservative,Democrat
+synth_0738,Female,Black,Buddhist,Liberal,Independent
+synth_0739,Male,Other,Mormon,Very conservative,Independent
+synth_0740,Female,Black,Atheist,Very liberal,Republican
+synth_0741,Male,Black,Orthodox,Very conservative,Democrat
+synth_0742,Male,Hispanic,Protestant,Moderate,Democrat
+synth_0743,Female,Asian,Hindu,Very liberal,Something else
+synth_0744,Male,White,Orthodox,Moderate,Something else
+synth_0745,Female,Black,Hindu,Very liberal,Independent
+synth_0746,Female,Black,Jewish,Very conservative,Independent
+synth_0747,Male,Hispanic,Protestant,Conservative,Democrat
+synth_0748,Male,Black,Other,Conservative,Independent
+synth_0749,Female,Other,Protestant,Very conservative,Something else
+synth_0750,Male,Black,Agnostic,Very conservative,Democrat
+synth_0751,Female,Other,Jewish,Moderate,Something else
+synth_0752,Female,Asian,Hindu,Moderate,Democrat
+synth_0753,Female,Asian,Other,Very liberal,Something else
+synth_0754,Male,White,Atheist,Moderate,Independent
+synth_0755,Female,White,Hindu,Very conservative,Independent
+synth_0756,Female,Asian,Jewish,Moderate,Independent
+synth_0757,Male,Black,Atheist,Conservative,Republican
+synth_0758,Female,Asian,Other,Conservative,Republican
+synth_0759,Female,Asian,Jewish,Liberal,Something else
+synth_0760,Female,White,Agnostic,Very liberal,Democrat
+synth_0761,Female,Black,Other,Very liberal,Something else
+synth_0762,Female,Other,Jewish,Conservative,Democrat
+synth_0763,Female,White,Hindu,Conservative,Independent
+synth_0764,Male,Asian,Other,Very conservative,Democrat
+synth_0765,Female,Black,Nothing in particular,Moderate,Something else
+synth_0766,Female,Asian,Jewish,Very liberal,Independent
+synth_0767,Female,White,Hindu,Very conservative,Republican
+synth_0768,Female,Black,Atheist,Very conservative,Something else
+synth_0769,Female,Hispanic,Protestant,Conservative,Democrat
+synth_0770,Male,Asian,Buddhist,Very liberal,Something else
+synth_0771,Male,Asian,Nothing in particular,Conservative,Republican
+synth_0772,Female,Asian,Other,Conservative,Independent
+synth_0773,Male,White,Hindu,Moderate,Democrat
+synth_0774,Male,Other,Mormon,Liberal,Republican
+synth_0775,Male,Other,Buddhist,Liberal,Something else
+synth_0776,Female,Hispanic,Buddhist,Very conservative,Republican
+synth_0777,Male,Asian,Protestant,Moderate,Democrat
+synth_0778,Male,White,Other,Conservative,Democrat
+synth_0779,Female,Asian,Mormon,Very conservative,Something else
+synth_0780,Female,Black,Roman Catholic,Very conservative,Independent
+synth_0781,Female,Hispanic,Nothing in particular,Very liberal,Independent
+synth_0782,Female,Black,Muslim,Liberal,Independent
+synth_0783,Male,Black,Buddhist,Very conservative,Democrat
+synth_0784,Male,Black,Orthodox,Very conservative,Democrat
+synth_0785,Male,Asian,Nothing in particular,Very conservative,Something else
+synth_0786,Female,Other,Agnostic,Very conservative,Republican
+synth_0787,Male,White,Protestant,Very conservative,Something else
+synth_0788,Female,Hispanic,Roman Catholic,Very liberal,Independent
+synth_0789,Female,Black,Orthodox,Very conservative,Independent
+synth_0790,Female,White,Other,Very liberal,Independent
+synth_0791,Male,Hispanic,Roman Catholic,Very liberal,Republican
+synth_0792,Female,White,Roman Catholic,Liberal,Democrat
+synth_0793,Male,Asian,Atheist,Conservative,Independent
+synth_0794,Female,Asian,Mormon,Very conservative,Something else
+synth_0795,Male,Hispanic,Muslim,Conservative,Republican
+synth_0796,Male,White,Roman Catholic,Very liberal,Something else
+synth_0797,Male,White,Atheist,Very conservative,Republican
+synth_0798,Female,Black,Hindu,Moderate,Independent
+synth_0799,Female,White,Roman Catholic,Conservative,Republican
+synth_0800,Female,Asian,Other,Moderate,Something else
+synth_0801,Male,White,Protestant,Very conservative,Democrat
+synth_0802,Male,Asian,Muslim,Liberal,Independent
+synth_0803,Male,Asian,Muslim,Conservative,Republican
+synth_0804,Female,Hispanic,Hindu,Moderate,Something else
+synth_0805,Female,Hispanic,Other,Conservative,Republican
+synth_0806,Male,White,Mormon,Very conservative,Something else
+synth_0807,Female,Other,Other,Liberal,Democrat
+synth_0808,Female,Asian,Agnostic,Very conservative,Democrat
+synth_0809,Female,Hispanic,Roman Catholic,Liberal,Something else
+synth_0810,Male,White,Jewish,Moderate,Republican
+synth_0811,Male,Asian,Atheist,Very liberal,Republican
+synth_0812,Female,Black,Hindu,Moderate,Something else
+synth_0813,Male,Other,Agnostic,Very conservative,Republican
+synth_0814,Male,Other,Hindu,Liberal,Democrat
+synth_0815,Male,Hispanic,Muslim,Conservative,Independent
+synth_0816,Female,White,Atheist,Conservative,Something else
+synth_0817,Female,Black,Roman Catholic,Liberal,Something else
+synth_0818,Female,White,Hindu,Liberal,Independent
+synth_0819,Male,Hispanic,Nothing in particular,Very conservative,Republican
+synth_0820,Female,Hispanic,Protestant,Very liberal,Republican
+synth_0821,Male,Other,Agnostic,Moderate,Democrat
+synth_0822,Female,Asian,Muslim,Very conservative,Democrat
+synth_0823,Female,Asian,Atheist,Very liberal,Something else
+synth_0824,Female,Hispanic,Roman Catholic,Very conservative,Democrat
+synth_0825,Male,Asian,Muslim,Moderate,Independent
+synth_0826,Male,White,Mormon,Liberal,Democrat
+synth_0827,Female,White,Jewish,Very liberal,Democrat
+synth_0828,Male,White,Buddhist,Conservative,Something else
+synth_0829,Male,Asian,Roman Catholic,Liberal,Republican
+synth_0830,Male,Hispanic,Hindu,Very liberal,Democrat
+synth_0831,Female,White,Atheist,Very conservative,Something else
+synth_0832,Female,Other,Mormon,Very liberal,Democrat
+synth_0833,Male,White,Buddhist,Very liberal,Independent
+synth_0834,Female,Hispanic,Agnostic,Conservative,Independent
+synth_0835,Female,Asian,Jewish,Liberal,Democrat
+synth_0836,Male,Hispanic,Agnostic,Very liberal,Independent
+synth_0837,Female,Other,Other,Conservative,Democrat
+synth_0838,Male,Other,Nothing in particular,Moderate,Independent
+synth_0839,Male,Black,Atheist,Very liberal,Independent
+synth_0840,Male,Asian,Atheist,Liberal,Something else
+synth_0841,Female,Hispanic,Protestant,Very liberal,Republican
+synth_0842,Male,Hispanic,Mormon,Very conservative,Republican
+synth_0843,Male,Asian,Mormon,Moderate,Independent
+synth_0844,Male,White,Nothing in particular,Moderate,Democrat
+synth_0845,Male,Asian,Hindu,Very conservative,Democrat
+synth_0846,Female,Black,Atheist,Moderate,Republican
+synth_0847,Female,Hispanic,Buddhist,Moderate,Republican
+synth_0848,Male,Asian,Orthodox,Very liberal,Something else
+synth_0849,Male,Asian,Agnostic,Very liberal,Democrat
+synth_0850,Male,Asian,Hindu,Conservative,Republican
+synth_0851,Male,Black,Nothing in particular,Very liberal,Republican
+synth_0852,Female,White,Buddhist,Moderate,Independent
+synth_0853,Male,Black,Agnostic,Moderate,Republican
+synth_0854,Female,Hispanic,Nothing in particular,Conservative,Republican
+synth_0855,Male,Asian,Agnostic,Very conservative,Independent
+synth_0856,Female,Other,Atheist,Moderate,Republican
+synth_0857,Female,Other,Orthodox,Conservative,Republican
+synth_0858,Male,Hispanic,Atheist,Very liberal,Something else
+synth_0859,Male,Asian,Orthodox,Conservative,Independent
+synth_0860,Female,Asian,Jewish,Conservative,Something else
+synth_0861,Male,White,Other,Moderate,Something else
+synth_0862,Male,Other,Agnostic,Conservative,Republican
+synth_0863,Female,Hispanic,Roman Catholic,Liberal,Independent
+synth_0864,Female,White,Atheist,Moderate,Something else
+synth_0865,Female,White,Jewish,Conservative,Independent
+synth_0866,Male,White,Mormon,Very liberal,Republican
+synth_0867,Male,Black,Other,Conservative,Something else
+synth_0868,Male,Black,Atheist,Liberal,Republican
+synth_0869,Male,White,Hindu,Moderate,Republican
+synth_0870,Male,White,Protestant,Conservative,Independent
+synth_0871,Male,Other,Orthodox,Moderate,Something else
+synth_0872,Female,Hispanic,Other,Liberal,Something else
+synth_0873,Female,White,Buddhist,Very conservative,Republican
+synth_0874,Male,Other,Protestant,Very conservative,Independent
+synth_0875,Male,Asian,Other,Moderate,Republican
+synth_0876,Female,Hispanic,Buddhist,Liberal,Republican
+synth_0877,Female,Black,Atheist,Conservative,Democrat
+synth_0878,Female,Other,Jewish,Conservative,Independent
+synth_0879,Female,White,Atheist,Very liberal,Democrat
+synth_0880,Male,White,Protestant,Very liberal,Something else
+synth_0881,Male,Asian,Orthodox,Moderate,Democrat
+synth_0882,Female,Other,Mormon,Conservative,Democrat
+synth_0883,Male,Other,Jewish,Conservative,Republican
+synth_0884,Male,Other,Protestant,Very liberal,Something else
+synth_0885,Male,Asian,Other,Very conservative,Independent
+synth_0886,Male,Black,Nothing in particular,Very liberal,Something else
+synth_0887,Female,Asian,Mormon,Conservative,Republican
+synth_0888,Female,Other,Roman Catholic,Conservative,Independent
+synth_0889,Female,Hispanic,Muslim,Very liberal,Independent
+synth_0890,Male,Other,Agnostic,Moderate,Independent
+synth_0891,Female,Black,Protestant,Moderate,Democrat
+synth_0892,Male,Hispanic,Jewish,Moderate,Democrat
+synth_0893,Female,Hispanic,Hindu,Liberal,Independent
+synth_0894,Female,Hispanic,Atheist,Very conservative,Democrat
+synth_0895,Male,Asian,Mormon,Very liberal,Democrat
+synth_0896,Female,White,Nothing in particular,Very conservative,Republican
+synth_0897,Male,Other,Agnostic,Liberal,Democrat
+synth_0898,Male,Other,Jewish,Very liberal,Something else
+synth_0899,Male,Asian,Buddhist,Conservative,Independent
+synth_0900,Male,Hispanic,Atheist,Very liberal,Republican
+synth_0901,Female,Asian,Atheist,Very conservative,Democrat
+synth_0902,Male,Other,Mormon,Liberal,Democrat
+synth_0903,Male,Other,Agnostic,Conservative,Something else
+synth_0904,Female,White,Orthodox,Liberal,Democrat
+synth_0905,Male,Asian,Muslim,Conservative,Republican
+synth_0906,Male,Other,Muslim,Liberal,Something else
+synth_0907,Female,White,Protestant,Moderate,Republican
+synth_0908,Female,Asian,Agnostic,Very liberal,Democrat
+synth_0909,Female,Hispanic,Muslim,Very liberal,Republican
+synth_0910,Female,Hispanic,Orthodox,Very liberal,Something else
+synth_0911,Female,Asian,Hindu,Liberal,Republican
+synth_0912,Male,Hispanic,Mormon,Conservative,Republican
+synth_0913,Female,Black,Mormon,Conservative,Democrat
+synth_0914,Female,Other,Nothing in particular,Very conservative,Democrat
+synth_0915,Female,Asian,Nothing in particular,Very conservative,Something else
+synth_0916,Female,Hispanic,Orthodox,Very liberal,Democrat
+synth_0917,Female,White,Orthodox,Very conservative,Democrat
+synth_0918,Male,Black,Other,Very liberal,Republican
+synth_0919,Male,White,Mormon,Moderate,Democrat
+synth_0920,Female,Other,Agnostic,Very conservative,Independent
+synth_0921,Male,Black,Hindu,Very liberal,Something else
+synth_0922,Female,Black,Orthodox,Liberal,Democrat
+synth_0923,Male,Other,Other,Very liberal,Independent
+synth_0924,Male,Asian,Hindu,Very liberal,Republican
+synth_0925,Male,Hispanic,Buddhist,Conservative,Republican
+synth_0926,Male,Black,Atheist,Very liberal,Something else
+synth_0927,Male,Other,Roman Catholic,Conservative,Something else
+synth_0928,Male,Other,Atheist,Very conservative,Republican
+synth_0929,Female,Black,Agnostic,Very liberal,Republican
+synth_0930,Female,Other,Buddhist,Moderate,Republican
+synth_0931,Female,Black,Hindu,Liberal,Independent
+synth_0932,Male,Hispanic,Mormon,Moderate,Something else
+synth_0933,Male,White,Jewish,Very liberal,Something else
+synth_0934,Female,Black,Protestant,Very conservative,Republican
+synth_0935,Male,Hispanic,Other,Conservative,Independent
+synth_0936,Female,Asian,Roman Catholic,Conservative,Something else
+synth_0937,Female,Asian,Atheist,Liberal,Independent
+synth_0938,Female,Hispanic,Orthodox,Liberal,Something else
+synth_0939,Male,Asian,Atheist,Very liberal,Something else
+synth_0940,Female,Asian,Agnostic,Moderate,Something else
+synth_0941,Male,White,Nothing in particular,Conservative,Something else
+synth_0942,Male,White,Orthodox,Very liberal,Something else
+synth_0943,Female,Other,Agnostic,Very conservative,Democrat
+synth_0944,Female,White,Roman Catholic,Conservative,Something else
+synth_0945,Female,White,Roman Catholic,Moderate,Democrat
+synth_0946,Female,White,Agnostic,Very conservative,Something else
+synth_0947,Female,Other,Other,Very liberal,Independent
+synth_0948,Male,Black,Other,Liberal,Something else
+synth_0949,Male,Black,Other,Very liberal,Independent
+synth_0950,Male,White,Agnostic,Very liberal,Democrat
+synth_0951,Male,White,Muslim,Conservative,Republican
+synth_0952,Male,White,Jewish,Liberal,Independent
+synth_0953,Female,Hispanic,Agnostic,Conservative,Republican
+synth_0954,Male,White,Atheist,Moderate,Independent
+synth_0955,Female,Asian,Orthodox,Very liberal,Democrat
+synth_0956,Female,Hispanic,Agnostic,Very conservative,Independent
+synth_0957,Male,Hispanic,Atheist,Very conservative,Republican
+synth_0958,Female,Asian,Roman Catholic,Very liberal,Independent
+synth_0959,Female,Hispanic,Buddhist,Very liberal,Something else
+synth_0960,Male,Asian,Hindu,Liberal,Republican
+synth_0961,Female,White,Jewish,Very conservative,Something else
+synth_0962,Male,Black,Muslim,Liberal,Independent
+synth_0963,Male,Asian,Orthodox,Moderate,Republican
+synth_0964,Female,Asian,Roman Catholic,Very liberal,Democrat
+synth_0965,Female,Asian,Muslim,Conservative,Independent
+synth_0966,Male,Black,Hindu,Conservative,Democrat
+synth_0967,Male,Asian,Orthodox,Conservative,Democrat
+synth_0968,Male,Other,Muslim,Conservative,Republican
+synth_0969,Male,White,Other,Liberal,Republican
+synth_0970,Male,Hispanic,Muslim,Very liberal,Independent
+synth_0971,Female,Other,Jewish,Liberal,Democrat
+synth_0972,Female,Hispanic,Orthodox,Very liberal,Democrat
+synth_0973,Male,Other,Buddhist,Liberal,Republican
+synth_0974,Female,Hispanic,Other,Conservative,Something else
+synth_0975,Male,Other,Hindu,Moderate,Republican
+synth_0976,Male,Black,Buddhist,Very liberal,Republican
+synth_0977,Female,Asian,Agnostic,Moderate,Democrat
+synth_0978,Female,Black,Jewish,Liberal,Independent
+synth_0979,Female,Black,Hindu,Liberal,Democrat
+synth_0980,Female,Asian,Muslim,Liberal,Independent
+synth_0981,Female,Black,Agnostic,Conservative,Democrat
+synth_0982,Male,Asian,Orthodox,Very liberal,Something else
+synth_0983,Female,Black,Mormon,Conservative,Something else
+synth_0984,Male,Black,Buddhist,Liberal,Democrat
+synth_0985,Female,Hispanic,Jewish,Moderate,Republican
+synth_0986,Female,White,Nothing in particular,Conservative,Republican
+synth_0987,Male,Asian,Hindu,Very conservative,Something else
+synth_0988,Female,Asian,Muslim,Moderate,Independent
+synth_0989,Female,White,Buddhist,Very conservative,Independent
+synth_0990,Male,Other,Agnostic,Very liberal,Democrat
+synth_0991,Female,Asian,Muslim,Very liberal,Something else
+synth_0992,Female,White,Buddhist,Very liberal,Independent
+synth_0993,Female,Black,Mormon,Moderate,Something else
+synth_0994,Female,White,Roman Catholic,Conservative,Independent
+synth_0995,Male,Asian,Muslim,Moderate,Independent
+synth_0996,Female,Asian,Hindu,Moderate,Something else
+synth_0997,Female,Black,Mormon,Very conservative,Democrat
+synth_0998,Male,Asian,Nothing in particular,Very conservative,Democrat
+synth_0999,Male,Hispanic,Roman Catholic,Very conservative,Republican

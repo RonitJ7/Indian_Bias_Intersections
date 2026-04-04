@@ -1,0 +1,95 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          agreeableness   R-squared:                       0.639
+Model:                            OLS   Adj. R-squared:                  0.617
+Method:                 Least Squares   F-statistic:                     28.93
+Date:                Sun, 05 Apr 2026   Prob (F-statistic):          1.06e-207
+Time:                        02:16:29   Log-Likelihood:                 54.146
+No. Observations:                1234   AIC:                             35.71
+Df Residuals:                    1162   BIC:                             404.2
+Df Model:                          71                                         
+Covariance Type:            nonrobust                                         
+====================================================================================================================
+                                                       coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------
+const                                                4.3559      0.057     76.266      0.000       4.244       4.468
+sex_Female                                           0.2119      0.031      6.755      0.000       0.150       0.273
+race_Asian                                           0.2280      0.089      2.562      0.011       0.053       0.403
+race_Black                                           0.3985      0.087      4.606      0.000       0.229       0.568
+race_Hispanic                                        0.3344      0.077      4.331      0.000       0.183       0.486
+race_Other                                           0.3142      0.076      4.124      0.000       0.165       0.464
+religion_Agnostic                                   -0.4486      0.078     -5.739      0.000      -0.602      -0.295
+religion_Atheist                                    -0.3988      0.076     -5.262      0.000      -0.548      -0.250
+religion_Buddhist                                    0.4459      0.072      6.182      0.000       0.304       0.587
+religion_Hindu                                       0.2838      0.071      3.971      0.000       0.144       0.424
+religion_Jewish                                      0.0125      0.072      0.173      0.863      -0.129       0.154
+religion_Mormon                                      0.4264      0.092      4.638      0.000       0.246       0.607
+religion_Muslim                                      0.3491      0.076      4.613      0.000       0.201       0.498
+religion_Nothing in particular                      -0.2444      0.071     -3.426      0.001      -0.384      -0.104
+religion_Orthodox                                    0.1598      0.076      2.107      0.035       0.011       0.309
+religion_Other                                      -0.0643      0.079     -0.810      0.418      -0.220       0.091
+religion_Roman Catholic                              0.2743      0.070      3.920      0.000       0.137       0.412
+political_views_Conservative                        -0.1054      0.023     -4.677      0.000      -0.150      -0.061
+political_views_Liberal                              0.1034      0.023      4.564      0.000       0.059       0.148
+political_views_Very conservative                   -0.1737      0.022     -7.817      0.000      -0.217      -0.130
+political_views_Very liberal                         0.1351      0.022      6.117      0.000       0.092       0.178
+political_party_Democrat                             0.0816      0.020      3.990      0.000       0.041       0.122
+political_party_Republican                          -0.0782      0.020     -3.880      0.000      -0.118      -0.039
+political_party_Something else                       0.0028      0.020      0.139      0.889      -0.037       0.042
+sex_Female__x__race_Asian                           -0.1351      0.044     -3.085      0.002      -0.221      -0.049
+sex_Female__x__race_Black                           -0.1379      0.045     -3.093      0.002      -0.225      -0.050
+sex_Female__x__race_Hispanic                        -0.1312      0.045     -2.888      0.004      -0.220      -0.042
+sex_Female__x__race_Other                           -0.0559      0.045     -1.248      0.212      -0.144       0.032
+race_Asian__x__religion_Agnostic                     0.2677      0.116      2.312      0.021       0.041       0.495
+race_Asian__x__religion_Atheist                      0.0713      0.117      0.612      0.541      -0.157       0.300
+race_Asian__x__religion_Buddhist                    -0.1901      0.113     -1.676      0.094      -0.413       0.032
+race_Asian__x__religion_Hindu                       -0.1360      0.111     -1.229      0.219      -0.353       0.081
+race_Asian__x__religion_Jewish                      -0.1037      0.118     -0.878      0.380      -0.336       0.128
+race_Asian__x__religion_Mormon                      -0.1099      0.124     -0.886      0.376      -0.353       0.133
+race_Asian__x__religion_Muslim                      -0.0945      0.112     -0.845      0.398      -0.314       0.125
+race_Asian__x__religion_Nothing in particular       -0.1169      0.113     -1.037      0.300      -0.338       0.104
+race_Asian__x__religion_Orthodox                     0.0142      0.112      0.127      0.899      -0.206       0.234
+race_Asian__x__religion_Other                       -0.1174      0.117     -1.000      0.318      -0.348       0.113
+race_Asian__x__religion_Roman Catholic              -0.1198      0.111     -1.076      0.282      -0.338       0.099
+race_Black__x__religion_Agnostic                    -0.1580      0.115     -1.371      0.171      -0.384       0.068
+race_Black__x__religion_Atheist                     -0.2046      0.116     -1.756      0.079      -0.433       0.024
+race_Black__x__religion_Buddhist                    -0.3354      0.115     -2.919      0.004      -0.561      -0.110
+race_Black__x__religion_Hindu                       -0.3504      0.108     -3.240      0.001      -0.563      -0.138
+race_Black__x__religion_Jewish                      -0.3468      0.110     -3.139      0.002      -0.563      -0.130
+race_Black__x__religion_Mormon                      -0.3715      0.126     -2.958      0.003      -0.618      -0.125
+race_Black__x__religion_Muslim                      -0.3469      0.121     -2.873      0.004      -0.584      -0.110
+race_Black__x__religion_Nothing in particular       -0.2513      0.107     -2.341      0.019      -0.462      -0.041
+race_Black__x__religion_Orthodox                    -0.2843      0.113     -2.524      0.012      -0.505      -0.063
+race_Black__x__religion_Other                       -0.3295      0.112     -2.935      0.003      -0.550      -0.109
+race_Black__x__religion_Roman Catholic              -0.2840      0.128     -2.213      0.027      -0.536      -0.032
+race_Hispanic__x__religion_Agnostic                  0.1093      0.112      0.978      0.328      -0.110       0.329
+race_Hispanic__x__religion_Atheist                  -0.2327      0.105     -2.225      0.026      -0.438      -0.027
+race_Hispanic__x__religion_Buddhist                 -0.3045      0.109     -2.799      0.005      -0.518      -0.091
+race_Hispanic__x__religion_Hindu                    -0.1987      0.103     -1.927      0.054      -0.401       0.004
+race_Hispanic__x__religion_Jewish                   -0.1353      0.112     -1.213      0.225      -0.354       0.084
+race_Hispanic__x__religion_Mormon                   -0.1897      0.117     -1.625      0.105      -0.419       0.039
+race_Hispanic__x__religion_Muslim                   -0.2815      0.102     -2.758      0.006      -0.482      -0.081
+race_Hispanic__x__religion_Nothing in particular    -0.1168      0.104     -1.123      0.262      -0.321       0.087
+race_Hispanic__x__religion_Orthodox                 -0.2201      0.113     -1.948      0.052      -0.442       0.002
+race_Hispanic__x__religion_Other                    -0.1407      0.108     -1.307      0.191      -0.352       0.070
+race_Hispanic__x__religion_Roman Catholic           -0.2364      0.095     -2.477      0.013      -0.424      -0.049
+race_Other__x__religion_Agnostic                    -0.2706      0.106     -2.546      0.011      -0.479      -0.062
+race_Other__x__religion_Atheist                     -0.3496      0.105     -3.343      0.001      -0.555      -0.144
+race_Other__x__religion_Buddhist                    -0.3787      0.102     -3.702      0.000      -0.579      -0.178
+race_Other__x__religion_Hindu                       -0.1549      0.106     -1.459      0.145      -0.363       0.053
+race_Other__x__religion_Jewish                      -0.2633      0.101     -2.614      0.009      -0.461      -0.066
+race_Other__x__religion_Mormon                      -0.3388      0.118     -2.866      0.004      -0.571      -0.107
+race_Other__x__religion_Muslim                      -0.2516      0.109     -2.303      0.021      -0.466      -0.037
+race_Other__x__religion_Nothing in particular       -0.1601      0.106     -1.505      0.133      -0.369       0.049
+race_Other__x__religion_Orthodox                    -0.2992      0.108     -2.780      0.006      -0.510      -0.088
+race_Other__x__religion_Other                       -0.2440      0.105     -2.314      0.021      -0.451      -0.037
+race_Other__x__religion_Roman Catholic              -0.2660      0.105     -2.541      0.011      -0.471      -0.061
+==============================================================================
+Omnibus:                      195.683   Durbin-Watson:                   1.607
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              561.618
+Skew:                          -0.812   Prob(JB):                    1.11e-122
+Kurtosis:                       5.878   Cond. No.                         97.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

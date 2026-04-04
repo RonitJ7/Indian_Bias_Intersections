@@ -1,0 +1,12 @@
+<string>:4: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+Sending prompt length: 3158
+
+RESP:
+{"Q1": 3, "Q2": 3, "Q3": 3, "Q4": 3, "Q5": 3, "Q6": 3, "Q7": 1, "Q8": 3, "Q9": 1, "Q10": 5, "Q11": 1, "Q12": 4, "Q13": 3, "Q14": 2, "Q15": 5, "Q16": 1, "Q17": 5, "Q18": 1, "Q19": 5, "Q20": 1, "Q21": 1, "Q22": 5, "Q23": 1, "Q24": 5, "Q25": 1, "Q26": 4, "Q27": 5, "Q28": 4, "Q29": 2, "Q30": 2, "Q31": 4, "Q32": 5, "Q33": 3, "Q34": 1, "Q35": 5, "Q36": 5, "Q37": 4, "Q38": 1, "Q39": 5, "Q40": 5, "Q41": 1, "Q42": 5, "Q43": 5, "Q44": 1, "Q45": 1, "Q46": 5, "Q47": 1, "Q48": 5, "Q49": 5}
