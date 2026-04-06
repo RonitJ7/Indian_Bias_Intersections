@@ -439,7 +439,7 @@ def run_analysis(
 ) -> None:
     """Run the full analysis pipeline."""
     results_path = Path(results_dir)
-    regression_dir = results_path / "regression_different_defaults"
+    regression_dir = results_path / "regression_no_interaction"
     regression_dir.mkdir(parents=True, exist_ok=True)
 
     # Default reference categories

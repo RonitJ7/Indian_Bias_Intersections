@@ -1,0 +1,47 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     social_desirability   R-squared:                       0.597
+Model:                             OLS   Adj. R-squared:                  0.592
+Method:                  Least Squares   F-statistic:                     122.5
+Date:                 Tue, 07 Apr 2026   Prob (F-statistic):               0.00
+Time:                         03:10:25   Log-Likelihood:                -612.73
+No. Observations:                 1929   AIC:                             1273.
+Df Residuals:                     1905   BIC:                             1407.
+Df Model:                           23                                         
+Covariance Type:             nonrobust                                         
+=====================================================================================================
+                                        coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------
+const                                 3.9784      0.036    110.690      0.000       3.908       4.049
+sex_Male                             -0.1351      0.015     -8.812      0.000      -0.165      -0.105
+race_Asian                            0.1202      0.024      4.992      0.000       0.073       0.167
+race_Black                           -0.0006      0.025     -0.023      0.981      -0.049       0.048
+race_Hispanic                         0.0765      0.024      3.138      0.002       0.029       0.124
+race_White                           -0.0426      0.025     -1.739      0.082      -0.091       0.005
+religion_Agnostic                    -0.3539      0.037     -9.535      0.000      -0.427      -0.281
+religion_Atheist                     -0.3297      0.037     -8.910      0.000      -0.402      -0.257
+religion_Buddhist                     0.6558      0.038     17.415      0.000       0.582       0.730
+religion_Hindu                        0.4737      0.036     13.257      0.000       0.404       0.544
+religion_Jewish                       0.0620      0.037      1.693      0.091      -0.010       0.134
+religion_Mormon                       0.6516      0.037     17.779      0.000       0.580       0.723
+religion_Muslim                       0.4860      0.037     13.205      0.000       0.414       0.558
+religion_Nothing in particular       -0.0949      0.036     -2.626      0.009      -0.166      -0.024
+religion_Orthodox                     0.3411      0.037      9.308      0.000       0.269       0.413
+religion_Protestant                   0.2247      0.038      5.973      0.000       0.151       0.299
+religion_Roman Catholic               0.3971      0.036     10.906      0.000       0.326       0.469
+political_views_Conservative          0.3897      0.025     15.649      0.000       0.341       0.438
+political_views_Moderate              0.0528      0.025      2.141      0.032       0.004       0.101
+political_views_Very conservative     0.4888      0.025     19.900      0.000       0.441       0.537
+political_views_Very liberal          0.0567      0.024      2.325      0.020       0.009       0.105
+political_party_Democrat              0.0558      0.022      2.577      0.010       0.013       0.098
+political_party_Independent          -0.0653      0.022     -2.997      0.003      -0.108      -0.023
+political_party_Republican           -0.0027      0.021     -0.126      0.900      -0.045       0.039
+==============================================================================
+Omnibus:                       29.055   Durbin-Watson:                   1.420
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               30.235
+Skew:                          -0.286   Prob(JB):                     2.72e-07
+Kurtosis:                       3.219   Cond. No.                         16.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
