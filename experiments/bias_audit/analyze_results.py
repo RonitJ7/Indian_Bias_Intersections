@@ -334,6 +334,100 @@ def plot_forest(
     plt.close()
 
 
+def plot_intersectional_heatmap(
+    all_coefficients: pd.DataFrame,
+    output_path: Path,
+    p_threshold: float = 0.01,
+    title: str = "LLM Intersectional Bias: Significant Interaction Coefficients (p < 0.01)",
+) -> None:
+    """
+    Create a heatmap of statistically significant interaction-term coefficients.
+
+    Only shows features containing '__x__' (interaction terms) where p < p_threshold.
+    Rows are interaction pairs, columns are personality traits.
+    """
+    # Filter to interaction terms only with significance threshold
+    interactions_df = all_coefficients[
+        all_coefficients["feature"].str.contains("__x__") &
+        (all_coefficients["p_value"] < p_threshold)
+    ].copy()
+
+    if interactions_df.empty:
+        print(f"  ⚠️ No significant interaction terms found at p < {p_threshold}. Skipping intersectional heatmap.")
+        return
+
+    # Pivot: rows = interaction features, columns = traits
+    pivot = interactions_df.pivot_table(
+        index="feature", columns="trait", values="coefficient", aggfunc="first"
+    )
+
+    # Sort rows by max absolute coefficient across traits for readability
+    pivot = pivot.reindex(
+        pivot.abs().max(axis=1).sort_values(ascending=False).index
+    )
+
+    n_rows = len(pivot)
+    n_cols = len(pivot.columns)
+    fig_width = max(10, n_cols * 2.5)
+    fig_height = max(6, n_rows * 0.55)
+
+    fig, ax = plt.subplots(figsize=(fig_width, fig_height))
+
+    # Symmetric color scale
+    abs_max = float(np.nanmax(np.abs(pivot.values)))
+    im = ax.imshow(
+        pivot.values,
+        cmap="RdBu_r",
+        aspect="auto",
+        vmin=-abs_max,
+        vmax=abs_max,
+    )
+
+    # Axis labels — clean up column names
+    ax.set_xticks(range(n_cols))
+    ax.set_xticklabels(
+        [c.replace("_", " ").title() for c in pivot.columns],
+        rotation=45, ha="right", fontsize=11,
+    )
+    ax.set_yticks(range(n_rows))
+    # Replace __x__ with x for readability
+    clean_labels = [f.replace("__x__", " x ").replace("_", " ") for f in pivot.index]
+    ax.set_yticklabels(clean_labels, fontsize=8)
+
+    # Annotate cells
+    for i in range(n_rows):
+        for j in range(n_cols):
+            val = pivot.values[i, j]
+            if np.isnan(val):
+                continue
+            feature_name = pivot.index[i]
+            trait_name = pivot.columns[j]
+            row_mask = (
+                (interactions_df["feature"] == feature_name) &
+                (interactions_df["trait"] == trait_name)
+            )
+            sig_arr = interactions_df.loc[row_mask, "significance"].values
+            sig_str = sig_arr[0] if len(sig_arr) > 0 else ""
+            text_color = "white" if abs(val) > abs_max * 0.6 else "black"
+            ax.text(
+                j, i, f"{val:+.3f}{sig_str}",
+                ha="center", va="center",
+                fontsize=7.5, color=text_color, fontweight="bold",
+            )
+
+    cbar = plt.colorbar(im, ax=ax, shrink=0.8)
+    cbar.set_label("Coefficient (beta)", fontsize=11)
+
+    ax.set_title(title, fontsize=13, fontweight="bold", pad=20)
+    ax.set_xlabel("Personality Trait", fontsize=11)
+    ax.set_ylabel("Interaction Term (Race x Religion  /  Sex x Race)", fontsize=10)
+
+    plt.tight_layout()
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    plt.savefig(output_path, dpi=150, bbox_inches="tight")
+    plt.close()
+    print(f"  📊 Intersectional heatmap saved to {output_path}")
+
 # ============================================================================
 # Main
 # ============================================================================
@@ -345,17 +439,17 @@ def run_analysis(
 ) -> None:
     """Run the full analysis pipeline."""
     results_path = Path(results_dir)
-    regression_dir = results_path / "regression"
+    regression_dir = results_path / "regression_different_defaults"
     regression_dir.mkdir(parents=True, exist_ok=True)
 
     # Default reference categories
     if reference_categories is None:
         reference_categories = {
-            "sex": "Male",
-            "race": "White",
-            "religion": "Protestant",
-            "political_views": "Moderate",
-            "political_party": "Independent",
+            "sex": "Female",
+            "race": "Other",
+            "religion": "Other",
+            "political_views": "Liberal",
+            "political_party": "Something else",
         }
 
     # Load data
@@ -442,6 +536,13 @@ def run_analysis(
         )
     print(f"  📊 Forest plots saved to {regression_dir}/")
 
+    # Intersectional heatmap — only interaction terms with p < 0.01
+    plot_intersectional_heatmap(
+        all_coef_df,
+        regression_dir / "intersectional_heatmap.png",
+        p_threshold=0.01,
+    )
+
     # Print the most significant biases
     print(f"\n{'=' * 60}")
     print("🔍 TOP SIGNIFICANT BIASES (p < 0.05):")
@@ -465,7 +566,7 @@ def main():
     )
     parser.add_argument(
         "--results_dir", type=str, default=None,
-        help="Results directory (default: results/)"
+        help="Results directory (default: results_new_defaults/)"
     )
     parser.add_argument(
         "--interactions", type=str, default="sex:race,race:religion",

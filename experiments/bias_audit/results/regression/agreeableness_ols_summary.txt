@@ -3,8 +3,8 @@
 Dep. Variable:          agreeableness   R-squared:                       0.633
 Model:                            OLS   Adj. R-squared:                  0.619
 Method:                 Least Squares   F-statistic:                     45.04
-Date:                Mon, 06 Apr 2026   Prob (F-statistic):               0.00
-Time:                        04:07:39   Log-Likelihood:                 97.985
+Date:                Tue, 07 Apr 2026   Prob (F-statistic):               0.00
+Time:                        02:28:13   Log-Likelihood:                 97.985
 No. Observations:                1929   AIC:                            -51.97
 Df Residuals:                    1857   BIC:                             348.7
 Df Model:                          71                                         

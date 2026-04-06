@@ -3,8 +3,8 @@
 Dep. Variable:            neuroticism   R-squared:                       0.636
 Model:                            OLS   Adj. R-squared:                  0.622
 Method:                 Least Squares   F-statistic:                     45.77
-Date:                Mon, 06 Apr 2026   Prob (F-statistic):               0.00
-Time:                        04:27:13   Log-Likelihood:                -452.13
+Date:                Tue, 07 Apr 2026   Prob (F-statistic):               0.00
+Time:                        02:38:07   Log-Likelihood:                -452.13
 No. Observations:                1929   AIC:                             1048.
 Df Residuals:                    1857   BIC:                             1449.
 Df Model:                          71                                         
@@ -12,7 +12,7 @@ Covariance Type:            nonrobust
 ====================================================================================================================
                                                        coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------------------------------------------
-const                                                1.7840      0.057     31.050      0.000       1.671       1.897
+const                                                2.3104      0.057     40.474      0.000       2.198       2.422
 sex_Male                                            -0.0723      0.033     -2.184      0.029      -0.137      -0.007
 race_Asian                                           0.2556      0.075      3.402      0.001       0.108       0.403
 race_Black                                          -0.0146      0.073     -0.199      0.842      -0.158       0.129
@@ -29,10 +29,10 @@ religion_Nothing in particular                       0.0168      0.082      0.20
 religion_Orthodox                                    0.0314      0.075      0.419      0.675      -0.116       0.179
 religion_Protestant                                 -0.0644      0.075     -0.860      0.390      -0.211       0.082
 religion_Roman Catholic                              0.0417      0.083      0.504      0.614      -0.121       0.204
-political_views_Liberal                              0.5264      0.024     22.137      0.000       0.480       0.573
-political_views_Moderate                             0.3827      0.023     16.395      0.000       0.337       0.428
-political_views_Very conservative                   -0.1408      0.023     -6.047      0.000      -0.186      -0.095
-political_views_Very liberal                         0.6426      0.023     27.668      0.000       0.597       0.688
+political_views_Conservative                        -0.5264      0.024    -22.137      0.000      -0.573      -0.480
+political_views_Moderate                            -0.1437      0.023     -6.138      0.000      -0.190      -0.098
+political_views_Very conservative                   -0.6672      0.024    -28.291      0.000      -0.713      -0.621
+political_views_Very liberal                         0.1162      0.023      5.031      0.000       0.071       0.161
 political_party_Democrat                             0.0372      0.021      1.792      0.073      -0.004       0.078
 political_party_Independent                         -0.0529      0.021     -2.536      0.011      -0.094      -0.012
 political_party_Republican                          -0.2096      0.021    -10.201      0.000      -0.250      -0.169
@@ -88,7 +88,7 @@ race_White__x__religion_Roman Catholic               0.1459      0.116      1.26
 Omnibus:                       45.122   Durbin-Watson:                   1.431
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):               87.530
 Skew:                           0.133   Prob(JB):                     9.84e-20
-Kurtosis:                       4.009   Cond. No.                         89.9
+Kurtosis:                       4.009   Cond. No.                         90.0
 ==============================================================================
 
 Notes:

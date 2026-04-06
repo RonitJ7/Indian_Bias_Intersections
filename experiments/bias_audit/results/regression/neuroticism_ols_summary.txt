@@ -3,8 +3,8 @@
 Dep. Variable:            neuroticism   R-squared:                       0.636
 Model:                            OLS   Adj. R-squared:                  0.622
 Method:                 Least Squares   F-statistic:                     45.77
-Date:                Mon, 06 Apr 2026   Prob (F-statistic):               0.00
-Time:                        04:07:39   Log-Likelihood:                -452.13
+Date:                Tue, 07 Apr 2026   Prob (F-statistic):               0.00
+Time:                        02:28:13   Log-Likelihood:                -452.13
 No. Observations:                1929   AIC:                             1048.
 Df Residuals:                    1857   BIC:                             1449.
 Df Model:                          71                                         

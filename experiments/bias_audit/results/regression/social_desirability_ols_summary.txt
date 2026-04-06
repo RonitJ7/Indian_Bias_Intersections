@@ -3,8 +3,8 @@
 Dep. Variable:     social_desirability   R-squared:                       0.632
 Model:                             OLS   Adj. R-squared:                  0.617
 Method:                  Least Squares   F-statistic:                     44.84
-Date:                 Mon, 06 Apr 2026   Prob (F-statistic):               0.00
-Time:                         04:07:39   Log-Likelihood:                -525.11
+Date:                 Tue, 07 Apr 2026   Prob (F-statistic):               0.00
+Time:                         02:28:14   Log-Likelihood:                -525.11
 No. Observations:                 1929   AIC:                             1194.
 Df Residuals:                     1857   BIC:                             1595.
 Df Model:                           71                                         
