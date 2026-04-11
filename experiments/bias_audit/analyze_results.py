@@ -436,20 +436,22 @@ def run_analysis(
     results_dir: str,
     interactions_str: str = "",
     reference_categories: Optional[Dict[str, str]] = None,
+    regression_dir: Optional[str] = None,
 ) -> None:
     """Run the full analysis pipeline."""
     results_path = Path(results_dir)
-    regression_dir = results_path / "regression_no_interaction"
-    regression_dir.mkdir(parents=True, exist_ok=True)
+    # regression_dir can be configured in experiment.yaml; defaults to 'regression'
+    reg_dir = results_path / (regression_dir or "regression")
+    reg_dir.mkdir(parents=True, exist_ok=True)
 
     # Default reference categories
     if reference_categories is None:
         reference_categories = {
-            "sex": "Female",
-            "race": "Other",
-            "religion": "Other",
-            "political_views": "Liberal",
-            "political_party": "Something else",
+            "sex": "Male",
+            "race": "White",
+            "religion": "Protestant",
+            "political_views": "Moderate",
+            "political_party": "Independent",
         }
 
     # Load data
@@ -499,7 +501,7 @@ def run_analysis(
             })
 
             # Save full statsmodels summary
-            with open(regression_dir / f"{trait}_ols_summary.txt", 'w') as f:
+            with open(reg_dir / f"{trait}_ols_summary.txt", 'w') as f:
                 f.write(str(results.summary()))
 
     if not all_coefficients:
@@ -510,12 +512,12 @@ def run_analysis(
     all_coef_df = pd.concat(all_coefficients, ignore_index=True)
 
     # Save coefficient table
-    coef_path = regression_dir / "coefficients.csv"
+    coef_path = reg_dir / "coefficients.csv"
     all_coef_df.to_csv(coef_path, index=False)
     print(f"\n📋 Coefficient table saved to {coef_path}")
 
     # Save model summaries
-    summary_path = regression_dir / "model_summaries.csv"
+    summary_path = reg_dir / "model_summaries.csv"
     pd.DataFrame(model_summaries).to_csv(summary_path, index=False)
     print(f"📋 Model summaries saved to {summary_path}")
 
@@ -525,21 +527,21 @@ def run_analysis(
     # Heatmap of all coefficients
     plot_coefficient_heatmap(
         all_coef_df,
-        regression_dir / "coefficient_heatmap.png",
+        reg_dir / "coefficient_heatmap.png",
     )
 
     # Forest plots per trait
     for trait in trait_cols:
         plot_forest(
             all_coef_df, trait,
-            regression_dir / f"forest_{trait}.png",
+            reg_dir / f"forest_{trait}.png",
         )
-    print(f"  📊 Forest plots saved to {regression_dir}/")
+    print(f"  📊 Forest plots saved to {reg_dir}/")
 
     # Intersectional heatmap — only interaction terms with p < 0.01
     plot_intersectional_heatmap(
         all_coef_df,
-        regression_dir / "intersectional_heatmap.png",
+        reg_dir / "intersectional_heatmap.png",
         p_threshold=0.01,
     )
 
@@ -557,7 +559,7 @@ def run_analysis(
             print(f"  {direction} {row['trait']:25s} | {row['feature']:35s} | "
                   f"β={row['coefficient']:+.4f} | p={row['p_value']:.4f} {row['significance']}")
 
-    print(f"\n✅ Analysis complete! All results in {regression_dir}/")
+    print(f"\n✅ Analysis complete! All results in {reg_dir}/")
 
 
 def main():

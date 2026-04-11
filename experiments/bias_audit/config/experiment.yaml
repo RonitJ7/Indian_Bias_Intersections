@@ -1,0 +1,54 @@
+# ============================================================================
+# Experiment Configuration
+# ============================================================================
+# Central place for all tunable experiment parameters.
+# CLI flags override any value set here (CLI always wins).
+#
+# EXTENSIBILITY: Add new parameters here and read them in run_experiment.py.
+# ============================================================================
+
+# ---------------------------------------------------------------------------
+# Pipeline control
+# ---------------------------------------------------------------------------
+stage: "all"                  # Choices: all | generate | simulate | analyze
+
+# ---------------------------------------------------------------------------
+# Stage 1 — Persona Generation
+# ---------------------------------------------------------------------------
+n_personas: 1000              # Number of synthetic personas to generate
+seed: 42                      # Random seed for reproducibility
+
+# ---------------------------------------------------------------------------
+# Stage 2 — LLM Simulation
+# ---------------------------------------------------------------------------
+model: "gemini-2.5-flash"     # Primary model to use
+fallback_model: "gemini-2.0-flash"  # Fallback if primary is unavailable
+provider: "gemini"            # Choices: gemini | openai
+n_workers: 50                 # Number of concurrent async workers
+temperature: 0.0              # Sampling temperature (0 = deterministic)
+max_retries: 3                # Number of retries per persona on failure
+
+# ---------------------------------------------------------------------------
+# Stage 3 — Regression Analysis
+# ---------------------------------------------------------------------------
+# Reference category per demographic dimension.
+# The dropped (reference) value; all other coefficients are relative to it.
+reference_categories:
+  sex: "Male"
+  race: "White"
+  religion: "Protestant"
+  political_views: "Moderate"
+  political_party: "Independent"
+
+# ---------------------------------------------------------------------------
+# Paths
+# ---------------------------------------------------------------------------
+# Paths are relative to the bias_audit/ directory unless absolute.
+output_dir: "results"
+demographics_config: "config/demographics.yaml"
+traits_config: "config/personality_traits.yaml"
+
+# Subdirectory inside output_dir where regression results are written.
+# Change this per experiment so outputs don't overwrite each other.
+# Examples: "regression", "regression_no_interactions", "regression_v2"
+regression_dir: "regression"
