@@ -1,0 +1,46 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            neuroticism   R-squared:                       0.558
+Model:                            OLS   Adj. R-squared:                  0.548
+Method:                 Least Squares   F-statistic:                     56.12
+Date:                Sat, 11 Apr 2026   Prob (F-statistic):          3.36e-156
+Time:                        08:10:01   Log-Likelihood:                -410.04
+No. Observations:                1000   AIC:                             866.1
+Df Residuals:                     977   BIC:                             979.0
+Df Model:                          22                                         
+Covariance Type:            nonrobust                                         
+============================================================================================================
+                                               coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------
+const                                        2.3947      0.054     43.977      0.000       2.288       2.502
+sex_Female                                   0.2341      0.024      9.878      0.000       0.188       0.281
+religion_Agnostic                            0.1002      0.057      1.754      0.080      -0.012       0.212
+religion_Atheist                            -0.1621      0.057     -2.866      0.004      -0.273      -0.051
+religion_Buddhist                           -0.9543      0.056    -17.159      0.000      -1.063      -0.845
+religion_Jewish                              0.0395      0.055      0.712      0.477      -0.069       0.148
+religion_Mormon                             -0.6925      0.058    -12.020      0.000      -0.806      -0.579
+religion_Muslim                             -0.0562      0.055     -1.013      0.311      -0.165       0.053
+religion_Nothing in particular              -0.0042      0.055     -0.077      0.939      -0.113       0.104
+religion_Orthodox                           -0.0387      0.059     -0.659      0.510      -0.154       0.077
+religion_Other                               0.0215      0.055      0.394      0.694      -0.086       0.128
+religion_Protestant                         -0.1842      0.057     -3.207      0.001      -0.297      -0.071
+religion_Roman Catholic                     -0.1176      0.057     -2.075      0.038      -0.229      -0.006
+Region_North East India                      0.0240      0.029      0.841      0.401      -0.032       0.080
+Region_South India                          -0.0024      0.029     -0.081      0.935      -0.059       0.054
+Education_Associate’s degree                -0.2612      0.043     -6.109      0.000      -0.345      -0.177
+Education_College graduate/some postgrad    -0.4096      0.042     -9.809      0.000      -0.492      -0.328
+Education_Less than high school              0.0917      0.041      2.243      0.025       0.011       0.172
+Education_Postgraduate                      -0.4320      0.041    -10.591      0.000      -0.512      -0.352
+Education_Some college, no degree           -0.0076      0.041     -0.187      0.852      -0.087       0.072
+Caste_OBC                                    0.0730      0.034      2.168      0.030       0.007       0.139
+Caste_SC                                     0.2561      0.034      7.546      0.000       0.189       0.323
+Caste_ST                                     0.0129      0.033      0.388      0.698      -0.052       0.078
+==============================================================================
+Omnibus:                       17.978   Durbin-Watson:                   2.120
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               26.194
+Skew:                           0.172   Prob(JB):                     2.05e-06
+Kurtosis:                       3.714   Cond. No.                         16.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

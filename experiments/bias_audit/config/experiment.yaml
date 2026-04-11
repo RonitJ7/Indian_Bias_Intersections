@@ -35,10 +35,10 @@ max_retries: 3                # Number of retries per persona on failure
 # The dropped (reference) value; all other coefficients are relative to it.
 reference_categories:
   sex: "Male"
-  race: "White"
-  religion: "Protestant"
-  political_views: "Moderate"
-  political_party: "Independent"
+  religion: "Hindu"
+  Region: "North India"
+  Education: "High school graduate"
+  Caste: "General"
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -51,4 +51,4 @@ traits_config: "config/personality_traits.yaml"
 # Subdirectory inside output_dir where regression results are written.
 # Change this per experiment so outputs don't overwrite each other.
 # Examples: "regression", "regression_no_interactions", "regression_v2"
-regression_dir: "regression"
+regression_dir: "regression_indian_context_caste_education_v1"
