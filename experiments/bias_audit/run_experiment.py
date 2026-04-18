@@ -254,9 +254,20 @@ Examples:
     demographics_config = load_demographics_config(args.demographics_config)
     traits_config = load_traits_config(args.traits_config)
 
+    # dynamically adjust output_dir to prevent mixing different models/configs
+    demo_name = Path(args.demographics_config).stem
+    traits_name = Path(args.traits_config).stem
+    
+    inter_list = demographics_config.get("interactions", [])
+    inter_str = "_".join(f"{a}-{b}" for a, b in inter_list) if inter_list else "no-intersections"
+    
+    folder_name = f"{args.provider}_{args.model}_{demo_name}_{traits_name}_{inter_str}".replace("/", "-")
+    args.output_dir = str(Path(args.output_dir) / folder_name)
+    Path(args.output_dir).mkdir(parents=True, exist_ok=True)
+
     # Banner
     interactions_display = ",".join(
-        f"{a}:{b}" for a, b in demographics_config.get("interactions", [])
+        f"{a}:{b}" for a, b in inter_list
     )
     print()
     print("🔬 BIAS AUDIT EXPERIMENT")
