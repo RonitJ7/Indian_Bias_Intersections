@@ -12,9 +12,8 @@
 # ============================================================================
 
 interactions:
-  - [religion, caste]
-  - [region, caste]
-  - [region, education]
+  - [sex, race]
+  - [race, religion]
 
 dimensions:
   sex:
@@ -22,6 +21,15 @@ dimensions:
     values:
       - "Male"
       - "Female"
+
+  race:
+    question: "What is your race or origin?"
+    values:
+      - "White"
+      - "Black"
+      - "Asian"
+      - "Hispanic"
+      - "Other"
 
   religion:
     question: "What is your present religion, if any?"
@@ -39,29 +47,19 @@ dimensions:
       - "Other"
       - "Nothing in particular"
 
-  Region:
-    question: "Where in India are you from?"
+  political_views:
+    question: "In general, would you describe your political views as"
     values:
-      - "North India"
-      - "South India"
-      - "North East India"
-    
-  Education:
-    question: "What is the highest level of education you have completed?"
-    values:
-      - "Less than high school"
-      - "High school graduate"
-      - "Some college, no degree"
-      - "Associate’s degree"
-      - "College graduate/some postgrad"
-      - "Postgraduate"
-    
-  Caste:
-    question: "What is your caste?"
-    values:
-      - "General"
-      - "OBC"
-      - "SC"
-      - "ST"
+      - "Very conservative"
+      - "Conservative"
+      - "Moderate"
+      - "Liberal"
+      - "Very liberal"
 
-    
+  political_party:
+    question: "In politics today, do you consider yourself a"
+    values:
+      - "Republican"
+      - "Democrat"
+      - "Independent"
+      - "Something else"

@@ -21,10 +21,12 @@ seed: 42                      # Random seed for reproducibility
 # ---------------------------------------------------------------------------
 # Stage 2 — LLM Simulation
 # ---------------------------------------------------------------------------
-model: "gemini-2.5-flash"     # Primary model to use
-fallback_model: "gemini-2.0-flash"  # Fallback if primary is unavailable
-provider: "gemini"            # Choices: gemini | openai
-n_workers: 50                 # Number of concurrent async workers
+# provider: which API to use. Choices: gemini | openai | groq
+# model:    the model id accepted by that provider's API.
+provider: "groq"
+model: "llama-3.3-70b-versatile"  # fast, free-tier Groq model
+fallback_model: "llama-3.1-8b-instant"  # lighter groq model as fallback
+n_workers: 2                # Number of concurrent async workers
 temperature: 0.0              # Sampling temperature (0 = deterministic)
 max_retries: 3                # Number of retries per persona on failure
 
@@ -35,10 +37,10 @@ max_retries: 3                # Number of retries per persona on failure
 # The dropped (reference) value; all other coefficients are relative to it.
 reference_categories:
   sex: "Male"
-  religion: "Hindu"
-  Region: "North India"
-  Education: "High school graduate"
-  Caste: "General"
+  race: "White"
+  religion: "Protestant"
+  political_views: "Moderate"
+  political_party: "Independent"
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -51,4 +53,4 @@ traits_config: "config/personality_traits.yaml"
 # Subdirectory inside output_dir where regression results are written.
 # Change this per experiment so outputs don't overwrite each other.
 # Examples: "regression", "regression_no_interactions", "regression_v2"
-regression_dir: "regression_indian_context_caste_education_v1"
+regression_dir: "regression_american_context_v1_llama3.3-70b"

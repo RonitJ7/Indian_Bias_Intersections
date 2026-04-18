@@ -190,6 +190,59 @@ async def call_openai(
         return {"response_text": "", "usage": {}, "error": str(e)}
 
 
+async def call_groq(
+    prompt: str,
+    model_name: str,
+    temperature: float = 0.0,
+    max_tokens: int = 4096,
+    api_key: Optional[str] = None,
+) -> Dict:
+    """
+    Call the Groq API using the official groq-python SDK.
+    The SDK is synchronous, so we wrap it in run_in_executor to keep the
+    async pipeline non-blocking.
+    """
+    try:
+        from groq import Groq
+    except ImportError:
+        raise ImportError("groq package not installed. Run: poetry add groq")
+
+    key = api_key or os.environ.get("GROQ_API_KEY")
+    if not key:
+        raise ValueError("GROQ_API_KEY not set. Add it to your .env file.")
+
+    client = Groq(api_key=key)
+
+    def _sync_call():
+        return client.chat.completions.create(
+            model=model_name,
+            messages=[
+                {"role": "system", "content": SYSTEM_MESSAGE},
+                {"role": "user",   "content": prompt},
+            ],
+            temperature=temperature,
+            max_tokens=max_tokens,
+        )
+
+    try:
+        response = await asyncio.get_event_loop().run_in_executor(None, _sync_call)
+        text = response.choices[0].message.content or ""
+        usage = {
+            "prompt_tokens":     response.usage.prompt_tokens,
+            "completion_tokens": response.usage.completion_tokens,
+            "total_tokens":      response.usage.total_tokens,
+        }
+        if text:
+            return {"response_text": text, "usage": usage, "error": None}
+        else:
+            return {"response_text": "", "usage": usage, "error": "Empty response from Groq"}
+    except Exception as e:
+        error_str = str(e)
+        # Surface model-not-found so the fallback logic in run_experiment.py kicks in
+        if "model" in error_str.lower() and ("not found" in error_str.lower() or "does not exist" in error_str.lower()):
+            error_str = f"MODEL_NOT_FOUND: {error_str}"
+        return {"response_text": "", "usage": {}, "error": error_str}
+
 # ============================================================================
 # Main Simulation Logic
 # ============================================================================
@@ -216,6 +269,8 @@ async def process_single_persona(
                 result = await call_gemini(prompt, model_name, temperature)
             elif provider == "openai":
                 result = await call_openai(prompt, model_name, temperature)
+            elif provider == "groq":
+                result = await call_groq(prompt, model_name, temperature)
             else:
                 return {"persona_id": persona_id, "error": f"Unknown provider: {provider}"}
 
@@ -237,7 +292,13 @@ async def process_single_persona(
                         "persona_id": persona_id,
                         "error": f"MODEL_NOT_FOUND: {result['error']}",
                     }
-                await asyncio.sleep(2 ** attempt)
+                # Detect rate-limit errors (429 / "Rate limit reached" etc.)
+                err_lower = result["error"].lower()
+                if err_lower.startswith("rate") or "429" in result["error"] or "rate limit" in err_lower:
+                    print(f"  ⏳ {persona_id}: Rate-limited. Sleeping 65s before retry {attempt+1}/{max_retries}.\n     Full error: {result['error']}")
+                    await asyncio.sleep(65)
+                else:
+                    await asyncio.sleep(2 ** attempt)
                 continue
 
             # Parse the response
@@ -349,10 +410,18 @@ async def run_simulation(
     fail_count = 0
     model_not_found = False
 
-    # Open files for appending (checkpointing)
+    # Groq rate-limit: 30 req/min. Sleep after every 25 completed requests.
+    _GROQ_BATCH_SIZE = 2
+    _GROQ_SLEEP_SECS = 62  # slight buffer over the 60-second window
+
     with open(scores_file, 'a') as scores_f:
         for i, coro in enumerate(asyncio.as_completed(tasks)):
             result = await coro
+
+            # Rate-limit pause for Groq after every batch of 25
+            if provider == "groq" and i > 0 and i % _GROQ_BATCH_SIZE == 0:
+                print(f"  ⏸  Groq rate-limit pause ({_GROQ_SLEEP_SECS}s) after {i} requests...")
+                await asyncio.sleep(_GROQ_SLEEP_SECS)
 
             pid = result["persona_id"]
 
