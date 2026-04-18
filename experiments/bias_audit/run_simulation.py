@@ -190,6 +190,58 @@ async def call_openai(
         return {"response_text": "", "usage": {}, "error": str(e)}
 
 
+async def call_local(
+    prompt: str,
+    model_name: str,
+    temperature: float = 0.0,
+    max_tokens: int = 4096,
+) -> Dict:
+    """
+    Call a local OpenAI-compatible API (e.g., Ollama or vLLM).
+    Assumes default Ollama endpoint at localhost:11434.
+    """
+    try:
+        import openai
+        import httpx
+    except ImportError:
+        raise ImportError("openai package not installed. Run: pip install openai")
+
+    try:
+        async with httpx.AsyncClient(timeout=120.0) as http_client:
+            client = openai.AsyncOpenAI(
+                base_url="http://localhost:11434/v1",
+                api_key="ollama", # Dummy key
+                http_client=http_client
+            )
+            response = await client.chat.completions.create(
+                model=model_name,
+                messages=[
+                    {"role": "system", "content": SYSTEM_MESSAGE},
+                    {"role": "user", "content": prompt},
+                ],
+                temperature=temperature,
+                max_tokens=max_tokens,
+            )
+            # Ollama includes usage stats in compatible format
+            usage = {}
+            if hasattr(response, 'usage') and response.usage:
+                usage = {
+                    "prompt_tokens": getattr(response.usage, 'prompt_tokens', 0),
+                    "completion_tokens": getattr(response.usage, 'completion_tokens', 0),
+                    "total_tokens": getattr(response.usage, 'total_tokens', 0),
+                }
+            return {
+                "response_text": response.choices[0].message.content,
+                "usage": usage,
+                "error": None,
+            }
+    except Exception as e:
+        error_str = str(e)
+        if "connection" in error_str.lower() or "connect" in error_str.lower():
+            error_str = f"CONNECTION_ERROR: Could not connect to local server at localhost:11434. Is Ollama running? Details: {error_str}"
+        return {"response_text": "", "usage": {}, "error": error_str}
+
+
 async def call_groq(
     prompt: str,
     model_name: str,
@@ -271,6 +323,8 @@ async def process_single_persona(
                 result = await call_openai(prompt, model_name, temperature)
             elif provider == "groq":
                 result = await call_groq(prompt, model_name, temperature)
+            elif provider == "local":
+                result = await call_local(prompt, model_name, temperature)
             else:
                 return {"persona_id": persona_id, "error": f"Unknown provider: {provider}"}
 

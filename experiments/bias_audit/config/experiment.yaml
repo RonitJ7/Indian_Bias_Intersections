@@ -21,11 +21,11 @@ seed: 42                      # Random seed for reproducibility
 # ---------------------------------------------------------------------------
 # Stage 2 — LLM Simulation
 # ---------------------------------------------------------------------------
-# provider: which API to use. Choices: gemini | openai | groq
+# provider: which API to use. Choices: gemini | openai | groq | local
 # model:    the model id accepted by that provider's API.
-provider: "groq"
-model: "llama-3.3-70b-versatile"  # fast, free-tier Groq model
-fallback_model: "llama-3.1-8b-instant"  # lighter groq model as fallback
+provider: "local"
+model: "llama3"  # Assuming you pulled this via 'ollama run llama3'
+fallback_model: "llama3.2:1b"  # Smaller fallback model
 n_workers: 2                # Number of concurrent async workers
 temperature: 0.0              # Sampling temperature (0 = deterministic)
 max_retries: 3                # Number of retries per persona on failure

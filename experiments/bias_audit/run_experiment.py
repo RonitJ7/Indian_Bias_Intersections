@@ -232,7 +232,7 @@ Examples:
     parser.add_argument("--model", type=str, default=None)
     parser.add_argument("--fallback_model", type=str, default=None)
     parser.add_argument("--provider", type=str, default=None,
-                        choices=["gemini", "openai", "groq"])
+                        choices=["gemini", "openai", "groq", "local"])
     parser.add_argument("--n_workers", type=int, default=None)
     parser.add_argument("--temperature", type=float, default=None)
     parser.add_argument("--max_retries", type=int, default=None)
